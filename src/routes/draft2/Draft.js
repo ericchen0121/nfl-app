@@ -10,9 +10,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from './Contact.css';
+import s from './Draft.css';
+import DraftList from './DraftList';
 
-class Contact extends React.Component {
+class Draft extends React.Component {
   static propTypes = {
     title: PropTypes.string.isRequired,
   };
@@ -22,11 +23,11 @@ class Contact extends React.Component {
       <div className={s.root}>
         <div className={s.container}>
           <h1>{this.props.title}</h1>
-          <p>...</p>
+          <DraftList />
         </div>
       </div>
     );
   }
 }
 
-export default withStyles(s)(Contact);
+export default withStyles(s)(Draft);
