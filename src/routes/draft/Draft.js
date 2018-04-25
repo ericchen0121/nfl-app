@@ -21,9 +21,8 @@ class Draft extends React.Component {
     let list = PLAYERS.players.map(p => {
       return (
         <DraftListItem
-          first_name={p.first_name}
-          last_name={p.last_name}
-          position={p.position}
+          name={p.PLAYER}
+          position={p.POS}
         />
       )
     })
