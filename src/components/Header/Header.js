@@ -29,11 +29,11 @@ class Header extends React.Component {
               height="38"
               alt="React"
             />
-            <span className={s.brandTxt}>Your Company</span>
+            <span className={s.brandTxt}>NFL</span>
           </Link>
           <div className={s.banner}>
-            <h1 className={s.bannerTitle}>React</h1>
-            <p className={s.bannerDesc}>Complex web apps made easy</p>
+            <h1 className={s.bannerTitle}>NFL Draft</h1>
+            <p className={s.bannerDesc}>2018 Draft Analysis Vids</p>
           </div>
         </div>
       </div>
