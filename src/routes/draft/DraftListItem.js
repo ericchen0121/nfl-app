@@ -18,6 +18,7 @@ class DraftListItem extends React.Component {
   render() {
     const { name, position } = this.props
     let query = `${name}+${position}+highlights+draft`
+
     let yt = `https://www.youtube.com/results?search_query=${query}`
     let link = (
       <a href={yt} target='_blank'>
@@ -27,7 +28,7 @@ class DraftListItem extends React.Component {
 
     let list = null
     return (
-      <ListItem>
+      <ListItem key={name} onClick={() => this.props.actions.fetchYoutubeList(query)}>
         {position} {name} {link}
       </ListItem>
     );

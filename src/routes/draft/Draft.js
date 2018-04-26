@@ -15,14 +15,20 @@ import List from 'material-ui/List';
 import DraftListItem from './DraftListItem'
 import PLAYERS from './DraftPlayers'
 
-class Draft extends React.Component {
+import * as Actions from './actions'
+import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux';
 
+
+class Draft extends React.Component {
   render() {
+
     let list = PLAYERS.players.map(p => {
       return (
         <DraftListItem
           name={p.PLAYER}
           position={p.POS}
+          {...this.props}
         />
       )
     })
@@ -40,4 +46,14 @@ class Draft extends React.Component {
   }
 }
 
-export default withStyles(s)(Draft);
+function mapStateToProps(state) {
+  return state
+}
+
+function mapDispatchToProps(dispatch) {
+  return {
+    actions: bindActionCreators(Actions, dispatch)
+  };
+}
+
+export default withStyles(s)(connect(mapStateToProps, mapDispatchToProps)(Draft));

@@ -1,3 +1,6 @@
+// From CBS.com NFL Draft page
+// copied table into TSV -> JSON converter
+ // 
 const PLAYERS = {
   "players": [
   	{
