@@ -12,34 +12,25 @@ import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Draft.css';
 import List from 'material-ui/List';
-import DraftListItem from './DraftListItem'
-import PLAYERS from './DraftPlayers'
+import DraftListItem from './DraftListItem';
+import DraftVideo from './DraftVideo';
+import PLAYERS from './DraftPlayers';
 
-import * as Actions from './actions'
-import { connect } from 'react-redux'
+import * as Actions from './actions';
+import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-
 
 class Draft extends React.Component {
   render() {
-
-    let list = PLAYERS.players.map(p => {
-      return (
-        <DraftListItem
-          name={p.PLAYER}
-          position={p.POS}
-          {...this.props}
-        />
-      )
-    })
-
+    const list = PLAYERS.players.map(p => (
+      <DraftListItem name={p.PLAYER} position={p.POS} {...this.props} />
+    ));
 
     return (
       <div className={s.root}>
         <div className={s.container}>
-          <List>
-            { list }
-          </List>
+          <DraftVideo {...this.props} />
+          <List>{list}</List>
         </div>
       </div>
     );
@@ -47,13 +38,15 @@ class Draft extends React.Component {
 }
 
 function mapStateToProps(state) {
-  return state
+  return state;
 }
 
 function mapDispatchToProps(dispatch) {
   return {
-    actions: bindActionCreators(Actions, dispatch)
+    actions: bindActionCreators(Actions, dispatch),
   };
 }
 
-export default withStyles(s)(connect(mapStateToProps, mapDispatchToProps)(Draft));
+export default withStyles(s)(
+  connect(mapStateToProps, mapDispatchToProps)(Draft),
+);
