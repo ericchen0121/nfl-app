@@ -14,6 +14,7 @@ import { socialYoutubeOutline } from 'react-icons-kit/ionicons/socialYoutubeOutl
 
 const NFL_IMG = "https://static.nfl.com/static/content/static/img/combine/2018/headshots/1400x1000"
 const NFL_PARAMS = "&f=png&w=308&c=71"
+const NFL_LOGO = 'https://static.nfl.com/static/site/img/logos/svg/teams' // https://static.nfl.com/static/site/img/logos/svg/teams/CLE.svg
 
 class DraftListItem extends React.Component {
   static propTypes = {
@@ -22,7 +23,7 @@ class DraftListItem extends React.Component {
   };
 
   render() {
-    const { name, position, nfl_img_id } = this.props;
+    const { name, position, nfl_img_id, team, draft_rk } = this.props;
     const query = `${name}+${position}+highlights+draft`;
 
     const yt = `https://www.youtube.com/results?search_query=${query}`;
@@ -38,12 +39,22 @@ class DraftListItem extends React.Component {
       avatar = <img className={s.avatar} src={`${NFL_IMG}/${nfl_img_id}.png`} />
     )
 
+    let logo_src = `${NFL_LOGO}/${team}.svg`
+    let logo = <div className={s.logo} />
+    if (team) {
+      logo = (
+        <div className={s.logo}>
+          <img src={logo_src} />
+        </div>
+      )
+    }
+
     return (
       <ListItem
         key={name}
         onClick={() => this.props.actions.fetchYoutubeList(query)}
       >
-         {avatar} {position} {name} {link}
+         { draft_rk }{logo} {avatar} {position} {name} {link}
       </ListItem>
     );
   }

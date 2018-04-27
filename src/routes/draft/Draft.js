@@ -28,16 +28,19 @@ import { bindActionCreators } from 'redux';
 class Draft extends React.Component {
   render() {
     const { classes } = this.props;
-    const list = PLAYERS.players.map(p => (
+    let order_players = PLAYERS.players.sort((a,b) => b.DRAFT_RK - a.DRAFT_RK)
+    const list = order_players.map(p => (
       <DraftListItem
         name={p.PLAYER}
         position={p.POS}
         nfl_img_id={p.NFL_IMG_ID}
+        team={p.TEAM}
+        draft_rk = {p.DRAFT_RK}
         {...this.props}
       />
     ));
     return (
-      <div className={s.wrapper}>
+      <div className={s.wrapper_container}>
         <div className={s.item_list}>
           <List>{list}</List>
         </div>

@@ -32,6 +32,13 @@
   text-align: center;
 }
 
+.wrapper_container {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px
+}
 .item_list {
   flex-grow: 1; /* default 0 */
 }
@@ -43,4 +50,17 @@
 .item_playlist {
   flex-grow: 1;
   margin-bottom: 10px;
+}
+.item_title {
+  font-size: 9px
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+}
+
+.logo img {
+  height: 30px;
+  width: 30px
 }
