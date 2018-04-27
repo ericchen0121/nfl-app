@@ -9,6 +9,7 @@ import {
   FETCH_YOUTUBE_LIST_START,
   FETCH_YOUTUBE_LIST_RESULTS,
   FETCH_YOUTUBE_LIST_ERROR,
+  SELECT_YOUTUBE_VIDEO
 } from '../../constants';
 
 export const fetchYoutubeList = (query) => {
@@ -32,4 +33,8 @@ export const fetchYoutubeListResults = (data) => {
 
 export const fetchYoutubeListError = (data) => {
     return { type: FETCH_YOUTUBE_LIST_ERROR, data }
+}
+
+export const selectYoutubeVideo = (data) => {
+  return { type: SELECT_YOUTUBE_VIDEO, data }
 }
