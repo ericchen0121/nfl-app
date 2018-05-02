@@ -12,6 +12,8 @@ const PLAYERS = {
   		"POS RK": 1,
   		"HT": "6-4",
   		"WT": 269,
+      "DRAFT_RD": 1,
+      "DRAFT_RD_POS": 5,
       "DRAFT_RK": 5,
       "TEAM": "DEN",
       "NFL_IMG_ID": 2560043
@@ -25,6 +27,8 @@ const PLAYERS = {
   		"POS RK": 1,
   		"HT": "6-3",
   		"WT": 215,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": 2560066
@@ -38,6 +42,8 @@ const PLAYERS = {
   		"POS RK": 1,
   		"HT": "6-5",
   		"WT": 329,
+      "DRAFT_RD": 1,
+      "DRAFT_RD_POS": 6,
       "DRAFT_RK": 6,
       "TEAM": "IND",
       "NFL_IMG_ID": 2559948
@@ -51,6 +57,8 @@ const PLAYERS = {
   		"POS RK": 1,
   		"HT": "6-1",
   		"WT": 236,
+      "DRAFT_RD": 1,
+      "DRAFT_RD_POS": 8,
       "DRAFT_RK": 8,
       "TEAM": "CHI",
       "NFL_IMG_ID": 2559899
@@ -64,6 +72,8 @@ const PLAYERS = {
   		"POS RK": 1,
   		"HT": "6-3",
   		"WT": 218,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -77,6 +87,8 @@ const PLAYERS = {
   		"POS RK": 1,
   		"HT": "6-0",
   		"WT": 233,
+      "DRAFT_RD": 1,
+      "DRAFT_RD_POS": 2,
       "DRAFT_RK": 2,
       "TEAM": "NYG",
       "NFL_IMG_ID": 2559901
@@ -90,6 +102,8 @@ const PLAYERS = {
   		"POS RK": 1,
   		"HT": "6-2",
   		"WT": 282,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -103,6 +117,8 @@ const PLAYERS = {
   		"POS RK": 1,
   		"HT": "6-1",
   		"WT": 192,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -116,6 +132,8 @@ const PLAYERS = {
   		"POS RK": 1,
   		"HT": "6-1",
   		"WT": 201,
+      "DRAFT_RD": 1,
+      "DRAFT_RD_POS": 11,
       "DRAFT_RK": 11,
       "TEAM": "MIA",
       "NFL_IMG_ID": 2559944
@@ -129,6 +147,8 @@ const PLAYERS = {
   		"POS RK": 1,
   		"HT": "6-5",
   		"WT": 235,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -142,6 +162,8 @@ const PLAYERS = {
   		"POS RK": 2,
   		"HT": "5-11",
   		"WT": 192,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -155,6 +177,8 @@ const PLAYERS = {
   		"POS RK": 2,
   		"HT": "5-10",
   		"WT": 212,
+      "DRAFT_RD": 2,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -168,6 +192,8 @@ const PLAYERS = {
   		"POS RK": 3,
   		"HT": "5-10",
   		"WT": 191,
+      "DRAFT_RD": 1,
+      "DRAFT_RD_POS": 4,
       "DRAFT_RK": 4,
       "TEAM": "CLE",
       "NFL_IMG_ID": 2560061
@@ -181,6 +207,8 @@ const PLAYERS = {
   		"POS RK": 2,
   		"HT": "6-3",
   		"WT": 200,
+      "DRAFT_RD": 1,
+      "DRAFT_RD_POS": 32,
       "DRAFT_RK": 32,
       "TEAM": "BAL",
       "NFL_IMG_ID": 2560053
@@ -194,6 +222,8 @@ const PLAYERS = {
   		"POS RK": 2,
   		"HT": "6-1",
   		"WT": 242,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -207,6 +237,8 @@ const PLAYERS = {
   		"POS RK": 3,
   		"HT": "6-4",
   		"WT": 226,
+      "DRAFT_RD": 1,
+      "DRAFT_RD_POS": 10,
       "DRAFT_RK": 10,
       "TEAM": "ARI",
       "NFL_IMG_ID": 2560059
@@ -220,6 +252,8 @@ const PLAYERS = {
   		"POS RK": 2,
   		"HT": "6-4",
   		"WT": 291,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": 2560140
@@ -233,6 +267,8 @@ const PLAYERS = {
   		"POS RK": 3,
   		"HT": "6-4",
   		"WT": 347,
+      "DRAFT_RD": 1,
+      "DRAFT_RD_POS": 12,
       "DRAFT_RK": 12,
       "TEAM": "TB",
       "NFL_IMG_ID": 2559810
@@ -246,6 +282,8 @@ const PLAYERS = {
   		"POS RK": 2,
   		"HT": "5-11",
   		"WT": 213,
+      "DRAFT_RD": 2,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -259,6 +297,8 @@ const PLAYERS = {
   		"POS RK": 3,
   		"HT": "6-6",
   		"WT": 264,
+      "DRAFT_RD": 2,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -272,6 +312,8 @@ const PLAYERS = {
   		"POS RK": 2,
   		"HT": "6-3",
   		"WT": 313,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -285,6 +327,8 @@ const PLAYERS = {
   		"POS RK": 4,
   		"HT": "6-3",
   		"WT": 221,
+      "DRAFT_RD": 1,
+      "DRAFT_RD_POS": 3,
       "DRAFT_RK": 3,
       "TEAM": "NYJ",
       "NFL_IMG_ID": 2560057
@@ -298,6 +342,8 @@ const PLAYERS = {
   		"POS RK": 4,
   		"HT": "6-2",
   		"WT": 311,
+      "DRAFT_RD": 1,
+      "DRAFT_RD_POS": 13,
       "DRAFT_RK": 13,
       "TEAM": "WAS",
       "NFL_IMG_ID": 2560068
@@ -311,6 +357,8 @@ const PLAYERS = {
   		"POS RK": 3,
   		"HT": "6-2",
   		"WT": 348,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -324,7 +372,9 @@ const PLAYERS = {
   		"POS RK": 2,
   		"HT": "6-5",
   		"WT": 253,
-      "DRAFT_RK": 0,
+      "DRAFT_RD": 1,
+      "DRAFT_RD_POS": 31,
+      "DRAFT_RK": 31,
       "TEAM": "",
       "NFL_IMG_ID": 2560062
   	},
@@ -337,6 +387,8 @@ const PLAYERS = {
   		"POS RK": 1,
   		"HT": "6-8",
   		"WT": 360,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -350,6 +402,8 @@ const PLAYERS = {
   		"POS RK": 1,
   		"HT": "6-4",
   		"WT": 256,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 19,
       "TEAM": "DAL",
       "NFL_IMG_ID": 2560232
@@ -363,6 +417,8 @@ const PLAYERS = {
   		"POS RK": 2,
   		"HT": "6-9",
   		"WT": 310,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -376,6 +432,8 @@ const PLAYERS = {
   		"POS RK": 4,
   		"HT": "6-1",
   		"WT": 190,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -389,6 +447,8 @@ const PLAYERS = {
   		"POS RK": 3,
   		"HT": "6-5",
   		"WT": 320,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -402,6 +462,8 @@ const PLAYERS = {
   		"POS RK": 2,
   		"HT": "6-1",
   		"WT": 215,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -415,6 +477,8 @@ const PLAYERS = {
   		"POS RK": 3,
   		"HT": "6-1",
   		"WT": 205,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -428,6 +492,8 @@ const PLAYERS = {
   		"POS RK": 1,
   		"HT": "6-5",
   		"WT": 309,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -441,6 +507,8 @@ const PLAYERS = {
   		"POS RK": 5,
   		"HT": "6-1",
   		"WT": 215,
+      "DRAFT_RD": 1,
+      "DRAFT_RD_POS": 1,
       "DRAFT_RK": 1,
       "TEAM": "CLE",
       "NFL_IMG_ID": 2560063
@@ -454,6 +522,8 @@ const PLAYERS = {
   		"POS RK": 4,
   		"HT": "6-8",
   		"WT": 312,
+      "DRAFT_RD": 1,
+      "DRAFT_RD_POS": 9,
       "DRAFT_RK": 9,
       "TEAM": "SF",
       "NFL_IMG_ID": 2559891
@@ -467,6 +537,8 @@ const PLAYERS = {
   		"POS RK": 3,
   		"HT": "5-11",
   		"WT": 200,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -480,6 +552,8 @@ const PLAYERS = {
   		"POS RK": 5,
   		"HT": "6-6",
   		"WT": 330,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -493,6 +567,8 @@ const PLAYERS = {
   		"POS RK": 4,
   		"HT": "6-4",
   		"WT": 220,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -506,6 +582,8 @@ const PLAYERS = {
   		"POS RK": 4,
   		"HT": "6-6",
   		"WT": 303,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -519,6 +597,8 @@ const PLAYERS = {
   		"POS RK": 6,
   		"HT": "6-5",
   		"WT": 325,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -532,6 +612,8 @@ const PLAYERS = {
   		"POS RK": 2,
   		"HT": "6-3",
   		"WT": 295,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -545,6 +627,8 @@ const PLAYERS = {
   		"POS RK": 5,
   		"HT": "6-3",
   		"WT": 200,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -558,6 +642,8 @@ const PLAYERS = {
   		"POS RK": 5,
   		"HT": "6-4",
   		"WT": 307,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -571,6 +657,8 @@ const PLAYERS = {
   		"POS RK": 5,
   		"HT": "5-11",
   		"WT": 190,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -584,6 +672,8 @@ const PLAYERS = {
   		"POS RK": 4,
   		"HT": "5-11",
   		"WT": 228,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 5,
       "TEAM": "DEN",
       "NFL_IMG_ID": 2560043
@@ -597,6 +687,8 @@ const PLAYERS = {
   		"POS RK": 6,
   		"HT": "6-0",
   		"WT": 189,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 26,
       "TEAM": "ATL",
       "NFL_IMG_ID": 2560011
@@ -610,6 +702,8 @@ const PLAYERS = {
   		"POS RK": 3,
   		"HT": "6-4",
   		"WT": 312,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -623,7 +717,9 @@ const PLAYERS = {
   		"POS RK": 3,
   		"HT": "6-2",
   		"WT": 213,
-      "DRAFT_RK": 0,
+      "DRAFT_RD": 2,
+      "DRAFT_RD_POS": 4,
+      "DRAFT_RK": 36,
       "TEAM": "",
       "NFL_IMG_ID": null
   	},
@@ -636,6 +732,8 @@ const PLAYERS = {
   		"POS RK": 4,
   		"HT": "6-4",
   		"WT": 251,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -649,6 +747,8 @@ const PLAYERS = {
   		"POS RK": 3,
   		"HT": "6-3",
   		"WT": 234,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -662,6 +762,8 @@ const PLAYERS = {
   		"POS RK": 1,
   		"HT": "6-5",
   		"WT": 255,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -675,6 +777,8 @@ const PLAYERS = {
   		"POS RK": 5,
   		"HT": "6-3",
   		"WT": 252,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -688,6 +792,8 @@ const PLAYERS = {
   		"POS RK": 5,
   		"HT": "5-11",
   		"WT": 220,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -701,6 +807,8 @@ const PLAYERS = {
   		"POS RK": 6,
   		"HT": "6-5",
   		"WT": 233,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 7,
       "TEAM": "BUF",
       "NFL_IMG_ID": 2560029
@@ -714,6 +822,8 @@ const PLAYERS = {
   		"POS RK": 2,
   		"HT": "6-5",
   		"WT": 247,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -727,6 +837,8 @@ const PLAYERS = {
   		"POS RK": 4,
   		"HT": "6-5",
   		"WT": 305,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -740,6 +852,8 @@ const PLAYERS = {
   		"POS RK": 6,
   		"HT": "6-3",
   		"WT": 335,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -753,6 +867,8 @@ const PLAYERS = {
   		"POS RK": 7,
   		"HT": "6-1",
   		"WT": 210,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -766,6 +882,8 @@ const PLAYERS = {
   		"POS RK": 6,
   		"HT": "5-11",
   		"WT": 234,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -779,6 +897,8 @@ const PLAYERS = {
   		"POS RK": 4,
   		"HT": "6-3",
   		"WT": 236,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -792,6 +912,8 @@ const PLAYERS = {
   		"POS RK": 5,
   		"HT": "6-5",
   		"WT": 316,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -805,6 +927,8 @@ const PLAYERS = {
   		"POS RK": 8,
   		"HT": "6-0",
   		"WT": 170,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -818,6 +942,8 @@ const PLAYERS = {
   		"POS RK": 2,
   		"HT": "6-1",
   		"WT": 204,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -831,6 +957,8 @@ const PLAYERS = {
   		"POS RK": 6,
   		"HT": "6-0",
   		"WT": 180,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -844,6 +972,8 @@ const PLAYERS = {
   		"POS RK": 6,
   		"HT": "6-4",
   		"WT": 270,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -857,6 +987,8 @@ const PLAYERS = {
   		"POS RK": 7,
   		"HT": "5-11",
   		"WT": 200,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -870,6 +1002,8 @@ const PLAYERS = {
   		"POS RK": 7,
   		"HT": "6-2",
   		"WT": 249,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -883,6 +1017,8 @@ const PLAYERS = {
   		"POS RK": 9,
   		"HT": "6-5",
   		"WT": 225,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -896,6 +1032,8 @@ const PLAYERS = {
   		"POS RK": 8,
   		"HT": "5-10",
   		"WT": 189,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -909,6 +1047,8 @@ const PLAYERS = {
   		"POS RK": 10,
   		"HT": "6-0",
   		"WT": 210,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -922,6 +1062,8 @@ const PLAYERS = {
   		"POS RK": 9,
   		"HT": "6-2",
   		"WT": 200,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -935,6 +1077,8 @@ const PLAYERS = {
   		"POS RK": 8,
   		"HT": "6-6",
   		"WT": 238,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -948,6 +1092,8 @@ const PLAYERS = {
   		"POS RK": 3,
   		"HT": "6-5",
   		"WT": 256,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -961,6 +1107,8 @@ const PLAYERS = {
   		"POS RK": 7,
   		"HT": "6-0",
   		"WT": 212,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -974,6 +1122,8 @@ const PLAYERS = {
   		"POS RK": 9,
   		"HT": "6-6",
   		"WT": 250,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -987,6 +1137,8 @@ const PLAYERS = {
   		"POS RK": 5,
   		"HT": "6-2",
   		"WT": 221,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1000,6 +1152,8 @@ const PLAYERS = {
   		"POS RK": 10,
   		"HT": "6-6",
   		"WT": 275,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1013,6 +1167,8 @@ const PLAYERS = {
   		"POS RK": 7,
   		"HT": "6-1",
   		"WT": 299,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1026,6 +1182,8 @@ const PLAYERS = {
   		"POS RK": 6,
   		"HT": "6-3",
   		"WT": 251,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1039,6 +1197,8 @@ const PLAYERS = {
   		"POS RK": 8,
   		"HT": "6-4",
   		"WT": 293,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1052,6 +1212,8 @@ const PLAYERS = {
   		"POS RK": 8,
   		"HT": "6-1",
   		"WT": 227,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1065,6 +1227,8 @@ const PLAYERS = {
   		"POS RK": 7,
   		"HT": "6-5",
   		"WT": 310,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1078,6 +1242,8 @@ const PLAYERS = {
   		"POS RK": 3,
   		"HT": "6-2",
   		"WT": 215,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1091,6 +1257,8 @@ const PLAYERS = {
   		"POS RK": 11,
   		"HT": "6-4",
   		"WT": 262,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1104,6 +1272,8 @@ const PLAYERS = {
   		"POS RK": 9,
   		"HT": "5-9",
   		"WT": 195,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1117,6 +1287,8 @@ const PLAYERS = {
   		"POS RK": 6,
   		"HT": "6-4",
   		"WT": 305,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1130,6 +1302,8 @@ const PLAYERS = {
   		"POS RK": 10,
   		"HT": "5-9",
   		"WT": 188,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1143,6 +1317,8 @@ const PLAYERS = {
   		"POS RK": 11,
   		"HT": "6-5",
   		"WT": 227,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1156,6 +1332,8 @@ const PLAYERS = {
   		"POS RK": 9,
   		"HT": "6-4",
   		"WT": 315,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1169,6 +1347,8 @@ const PLAYERS = {
   		"POS RK": 7,
   		"HT": "6-3",
   		"WT": 227,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1182,6 +1362,8 @@ const PLAYERS = {
   		"POS RK": 2,
   		"HT": "6-3",
   		"WT": 214,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1195,6 +1377,8 @@ const PLAYERS = {
   		"POS RK": 11,
   		"HT": "6-2",
   		"WT": 205,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1208,6 +1392,8 @@ const PLAYERS = {
   		"POS RK": 3,
   		"HT": "6-2",
   		"WT": 205,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1221,6 +1407,8 @@ const PLAYERS = {
   		"POS RK": 12,
   		"HT": "6-5",
   		"WT": 215,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1234,6 +1422,8 @@ const PLAYERS = {
   		"POS RK": 4,
   		"HT": "6-2",
   		"WT": 190,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1247,6 +1437,8 @@ const PLAYERS = {
   		"POS RK": 12,
   		"HT": "6-1",
   		"WT": 203,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1260,6 +1452,8 @@ const PLAYERS = {
   		"POS RK": 4,
   		"HT": "6-3",
   		"WT": 233,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1273,6 +1467,8 @@ const PLAYERS = {
   		"POS RK": 5,
   		"HT": "5-11",
   		"WT": 205,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1286,6 +1482,8 @@ const PLAYERS = {
   		"POS RK": 13,
   		"HT": "6-3",
   		"WT": 188,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1299,6 +1497,8 @@ const PLAYERS = {
   		"POS RK": 10,
   		"HT": "5-10",
   		"WT": 188,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1312,6 +1512,8 @@ const PLAYERS = {
   		"POS RK": 13,
   		"HT": "6-0",
   		"WT": 183,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1325,6 +1527,8 @@ const PLAYERS = {
   		"POS RK": 4,
   		"HT": "6-2",
   		"WT": 200,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1338,6 +1542,8 @@ const PLAYERS = {
   		"POS RK": 8,
   		"HT": "6-6",
   		"WT": 322,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1351,6 +1557,8 @@ const PLAYERS = {
   		"POS RK": 12,
   		"HT": "6-5",
   		"WT": 275,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1364,6 +1572,8 @@ const PLAYERS = {
   		"POS RK": 14,
   		"HT": "5-11",
   		"WT": 175,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1377,6 +1587,8 @@ const PLAYERS = {
   		"POS RK": 8,
   		"HT": "6-1",
   		"WT": 255,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1390,6 +1602,8 @@ const PLAYERS = {
   		"POS RK": 7,
   		"HT": "6-5",
   		"WT": 314,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1403,6 +1617,8 @@ const PLAYERS = {
   		"POS RK": 10,
   		"HT": "6-5",
   		"WT": 315,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1416,6 +1632,8 @@ const PLAYERS = {
   		"POS RK": 7,
   		"HT": "6-3",
   		"WT": 215,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1429,6 +1647,8 @@ const PLAYERS = {
   		"POS RK": 9,
   		"HT": "6-5",
   		"WT": 319,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1442,6 +1662,8 @@ const PLAYERS = {
   		"POS RK": 14,
   		"HT": "6-1",
   		"WT": 205,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1455,6 +1677,8 @@ const PLAYERS = {
   		"POS RK": 4,
   		"HT": "5-11",
   		"WT": 223,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1468,6 +1692,8 @@ const PLAYERS = {
   		"POS RK": 13,
   		"HT": "6-5",
   		"WT": 265,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1481,6 +1707,8 @@ const PLAYERS = {
   		"POS RK": 15,
   		"HT": "5-10",
   		"WT": 179,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1494,6 +1722,8 @@ const PLAYERS = {
   		"POS RK": 15,
   		"HT": "6-2",
   		"WT": 202,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1507,6 +1737,8 @@ const PLAYERS = {
   		"POS RK": 11,
   		"HT": "6-3",
   		"WT": 285,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1520,6 +1752,8 @@ const PLAYERS = {
   		"POS RK": 9,
   		"HT": "6-0",
   		"WT": 230,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1533,6 +1767,8 @@ const PLAYERS = {
   		"POS RK": 5,
   		"HT": "5-11",
   		"WT": 195,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1546,6 +1782,8 @@ const PLAYERS = {
   		"POS RK": 10,
   		"HT": "6-6",
   		"WT": 288,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1559,6 +1797,8 @@ const PLAYERS = {
   		"POS RK": 5,
   		"HT": "6-1",
   		"WT": 234,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1572,6 +1812,8 @@ const PLAYERS = {
   		"POS RK": 16,
   		"HT": "6-1",
   		"WT": 193,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1585,6 +1827,8 @@ const PLAYERS = {
   		"POS RK": 16,
   		"HT": "6-5",
   		"WT": 214,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1598,6 +1842,8 @@ const PLAYERS = {
   		"POS RK": 11,
   		"HT": "5-11",
   		"WT": 220,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1611,6 +1857,8 @@ const PLAYERS = {
   		"POS RK": 10,
   		"HT": "6-1",
   		"WT": 229,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1624,6 +1872,8 @@ const PLAYERS = {
   		"POS RK": 8,
   		"HT": "6-3",
   		"WT": 295,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1637,6 +1887,8 @@ const PLAYERS = {
   		"POS RK": 6,
   		"HT": "6-2",
   		"WT": 216,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1650,6 +1902,8 @@ const PLAYERS = {
   		"POS RK": 17,
   		"HT": "5-9",
   		"WT": 178,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1663,6 +1917,8 @@ const PLAYERS = {
   		"POS RK": 11,
   		"HT": "6-1",
   		"WT": 213,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1676,6 +1932,8 @@ const PLAYERS = {
   		"POS RK": 18,
   		"HT": "5-10",
   		"WT": 200,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1689,6 +1947,8 @@ const PLAYERS = {
   		"POS RK": 5,
   		"HT": "6-4",
   		"WT": 301,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1702,6 +1962,8 @@ const PLAYERS = {
   		"POS RK": 7,
   		"HT": "6-1",
   		"WT": 200,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1715,6 +1977,8 @@ const PLAYERS = {
   		"POS RK": 19,
   		"HT": "6-3",
   		"WT": 210,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1728,6 +1992,8 @@ const PLAYERS = {
   		"POS RK": 17,
   		"HT": "5-11",
   		"WT": 205,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1741,6 +2007,8 @@ const PLAYERS = {
   		"POS RK": 12,
   		"HT": "5-11",
   		"WT": 303,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1754,6 +2022,8 @@ const PLAYERS = {
   		"POS RK": 12,
   		"HT": "5-8",
   		"WT": 197,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1767,6 +2037,8 @@ const PLAYERS = {
   		"POS RK": 9,
   		"HT": "6-4",
   		"WT": 315,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1780,6 +2052,8 @@ const PLAYERS = {
   		"POS RK": 8,
   		"HT": "6-2",
   		"WT": 202,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1793,6 +2067,8 @@ const PLAYERS = {
   		"POS RK": 6,
   		"HT": "6-2",
   		"WT": 240,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1806,6 +2082,8 @@ const PLAYERS = {
   		"POS RK": 5,
   		"HT": "6-5",
   		"WT": 248,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1819,6 +2097,8 @@ const PLAYERS = {
   		"POS RK": 20,
   		"HT": "6-0",
   		"WT": 212,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1832,6 +2112,8 @@ const PLAYERS = {
   		"POS RK": 9,
   		"HT": "5-11",
   		"WT": 190,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1845,6 +2127,8 @@ const PLAYERS = {
   		"POS RK": 21,
   		"HT": "6-3",
   		"WT": 204,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1858,6 +2142,8 @@ const PLAYERS = {
   		"POS RK": 12,
   		"HT": "6-3",
   		"WT": 225,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1871,6 +2157,8 @@ const PLAYERS = {
   		"POS RK": 13,
   		"HT": "5-10",
   		"WT": 191,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1884,6 +2172,8 @@ const PLAYERS = {
   		"POS RK": 18,
   		"HT": "5-10",
   		"WT": 190,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1897,6 +2187,8 @@ const PLAYERS = {
   		"POS RK": 22,
   		"HT": "6-1",
   		"WT": 192,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1910,6 +2202,8 @@ const PLAYERS = {
   		"POS RK": 14,
   		"HT": "6-2",
   		"WT": 220,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1923,6 +2217,8 @@ const PLAYERS = {
   		"POS RK": 11,
   		"HT": "6-6",
   		"WT": 318,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1936,6 +2232,8 @@ const PLAYERS = {
   		"POS RK": 14,
   		"HT": "6-4",
   		"WT": 254,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1949,6 +2247,8 @@ const PLAYERS = {
   		"POS RK": 6,
   		"HT": "6-0",
   		"WT": 207,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1962,6 +2262,8 @@ const PLAYERS = {
   		"POS RK": 15,
   		"HT": "6-4",
   		"WT": 263,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1975,6 +2277,8 @@ const PLAYERS = {
   		"POS RK": 23,
   		"HT": "6-2",
   		"WT": 210,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -1988,6 +2292,8 @@ const PLAYERS = {
   		"POS RK": 13,
   		"HT": "6-1",
   		"WT": 227,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2001,6 +2307,8 @@ const PLAYERS = {
   		"POS RK": 15,
   		"HT": "5-9",
   		"WT": 205,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2014,6 +2322,8 @@ const PLAYERS = {
   		"POS RK": 19,
   		"HT": "6-0",
   		"WT": 180,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2027,6 +2337,8 @@ const PLAYERS = {
   		"POS RK": 7,
   		"HT": "5-11",
   		"WT": 195,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2040,6 +2352,8 @@ const PLAYERS = {
   		"POS RK": 24,
   		"HT": "6-1",
   		"WT": 210,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2053,6 +2367,8 @@ const PLAYERS = {
   		"POS RK": 14,
   		"HT": "6-3",
   		"WT": 232,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2066,6 +2382,8 @@ const PLAYERS = {
   		"POS RK": 10,
   		"HT": "6-1",
   		"WT": 300,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2079,6 +2397,8 @@ const PLAYERS = {
   		"POS RK": 15,
   		"HT": "6-5",
   		"WT": 252,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2092,6 +2412,8 @@ const PLAYERS = {
   		"POS RK": 13,
   		"HT": "6-0",
   		"WT": 314,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2105,6 +2427,8 @@ const PLAYERS = {
   		"POS RK": 20,
   		"HT": "6-1",
   		"WT": 194,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2118,6 +2442,8 @@ const PLAYERS = {
   		"POS RK": 25,
   		"HT": "6-1",
   		"WT": 210,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2131,6 +2457,8 @@ const PLAYERS = {
   		"POS RK": 16,
   		"HT": "6-4",
   		"WT": 266,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2144,6 +2472,8 @@ const PLAYERS = {
   		"POS RK": 8,
   		"HT": "6-2",
   		"WT": 201,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2157,6 +2487,8 @@ const PLAYERS = {
   		"POS RK": 14,
   		"HT": "6-3",
   		"WT": 312,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2170,6 +2502,8 @@ const PLAYERS = {
   		"POS RK": 26,
   		"HT": "6-4",
   		"WT": 215,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2183,6 +2517,8 @@ const PLAYERS = {
   		"POS RK": 15,
   		"HT": "6-2",
   		"WT": 312,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2196,6 +2532,8 @@ const PLAYERS = {
   		"POS RK": 16,
   		"HT": "6-4",
   		"WT": 285,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2209,6 +2547,8 @@ const PLAYERS = {
   		"POS RK": 7,
   		"HT": "6-2",
   		"WT": 237,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2222,6 +2562,8 @@ const PLAYERS = {
   		"POS RK": 21,
   		"HT": "5-10",
   		"WT": 208,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2235,6 +2577,8 @@ const PLAYERS = {
   		"POS RK": 6,
   		"HT": "6-5",
   		"WT": 330,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2248,6 +2592,8 @@ const PLAYERS = {
   		"POS RK": 27,
   		"HT": "6-0",
   		"WT": 199,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2261,6 +2607,8 @@ const PLAYERS = {
   		"POS RK": 8,
   		"HT": "6-1",
   		"WT": 235,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2274,6 +2622,8 @@ const PLAYERS = {
   		"POS RK": 17,
   		"HT": "6-4",
   		"WT": 246,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2287,6 +2637,8 @@ const PLAYERS = {
   		"POS RK": 22,
   		"HT": "6-1",
   		"WT": 206,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2300,6 +2652,8 @@ const PLAYERS = {
   		"POS RK": 18,
   		"HT": "6-5",
   		"WT": 270,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2313,6 +2667,8 @@ const PLAYERS = {
   		"POS RK": 17,
   		"HT": "6-1",
   		"WT": 280,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2326,6 +2682,8 @@ const PLAYERS = {
   		"POS RK": 16,
   		"HT": "5-11",
   		"WT": 193,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2339,6 +2697,8 @@ const PLAYERS = {
   		"POS RK": 9,
   		"HT": "6-0",
   		"WT": 233,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2352,6 +2712,8 @@ const PLAYERS = {
   		"POS RK": 28,
   		"HT": "6-3",
   		"WT": 199,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2365,6 +2727,8 @@ const PLAYERS = {
   		"POS RK": 6,
   		"HT": "6-6",
   		"WT": 248,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2378,6 +2742,8 @@ const PLAYERS = {
   		"POS RK": 19,
   		"HT": "6-1",
   		"WT": 254,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2391,6 +2757,8 @@ const PLAYERS = {
   		"POS RK": 23,
   		"HT": "6-2",
   		"WT": 198,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2404,6 +2772,8 @@ const PLAYERS = {
   		"POS RK": 17,
   		"HT": "5-6",
   		"WT": 199,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2417,6 +2787,8 @@ const PLAYERS = {
   		"POS RK": 9,
   		"HT": "6-4",
   		"WT": 225,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2430,6 +2802,8 @@ const PLAYERS = {
   		"POS RK": 7,
   		"HT": "6-4",
   		"WT": 250,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 25,
       "TEAM": "BAL",
       "NFL_IMG_ID": 2560072
@@ -2443,6 +2817,8 @@ const PLAYERS = {
   		"POS RK": 24,
   		"HT": "6-1",
   		"WT": 190,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2456,6 +2832,8 @@ const PLAYERS = {
   		"POS RK": 18,
   		"HT": "6-0",
   		"WT": 202,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2469,6 +2847,8 @@ const PLAYERS = {
   		"POS RK": 29,
   		"HT": "6-2",
   		"WT": 200,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2482,6 +2862,8 @@ const PLAYERS = {
   		"POS RK": 20,
   		"HT": "6-3",
   		"WT": 265,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2495,6 +2877,8 @@ const PLAYERS = {
   		"POS RK": 18,
   		"HT": "6-0",
   		"WT": 298,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2508,6 +2892,8 @@ const PLAYERS = {
   		"POS RK": 21,
   		"HT": "6-4",
   		"WT": 297,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2521,6 +2907,8 @@ const PLAYERS = {
   		"POS RK": 19,
   		"HT": "6-1",
   		"WT": 217,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2534,6 +2922,8 @@ const PLAYERS = {
   		"POS RK": 25,
   		"HT": "5-11",
   		"WT": 208,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2547,6 +2937,8 @@ const PLAYERS = {
   		"POS RK": 7,
   		"HT": "6-6",
   		"WT": 315,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2560,6 +2952,8 @@ const PLAYERS = {
   		"POS RK": 10,
   		"HT": "6-0",
   		"WT": 205,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2573,6 +2967,8 @@ const PLAYERS = {
   		"POS RK": 26,
   		"HT": "6-0",
   		"WT": 185,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2586,6 +2982,8 @@ const PLAYERS = {
   		"POS RK": 10,
   		"HT": "6-1",
   		"WT": 230,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2599,6 +2997,8 @@ const PLAYERS = {
   		"POS RK": 22,
   		"HT": "6-2",
   		"WT": 248,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2612,6 +3012,8 @@ const PLAYERS = {
   		"POS RK": 1,
   		"HT": "6-2",
   		"WT": 245,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2625,6 +3027,8 @@ const PLAYERS = {
   		"POS RK": 27,
   		"HT": "6-0",
   		"WT": 200,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2638,6 +3042,8 @@ const PLAYERS = {
   		"POS RK": 30,
   		"HT": "6-2",
   		"WT": 213,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2651,6 +3057,8 @@ const PLAYERS = {
   		"POS RK": 11,
   		"HT": "6-0",
   		"WT": 198,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2664,6 +3072,8 @@ const PLAYERS = {
   		"POS RK": 8,
   		"HT": "6-3",
   		"WT": 324,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2677,6 +3087,8 @@ const PLAYERS = {
   		"POS RK": 28,
   		"HT": "5-10",
   		"WT": 185,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2690,6 +3102,8 @@ const PLAYERS = {
   		"POS RK": 31,
   		"HT": "5-11",
   		"WT": 180,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2703,6 +3117,8 @@ const PLAYERS = {
   		"POS RK": 12,
   		"HT": "5-11",
   		"WT": 185,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2716,6 +3132,8 @@ const PLAYERS = {
   		"POS RK": 11,
   		"HT": "6-2",
   		"WT": 300,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2729,6 +3147,8 @@ const PLAYERS = {
   		"POS RK": 16,
   		"HT": "6-5",
   		"WT": 242,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2742,6 +3162,8 @@ const PLAYERS = {
   		"POS RK": 8,
   		"HT": "6-5",
   		"WT": 257,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2755,6 +3177,8 @@ const PLAYERS = {
   		"POS RK": 19,
   		"HT": "6-4",
   		"WT": 295,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2768,6 +3192,8 @@ const PLAYERS = {
   		"POS RK": 20,
   		"HT": "6-1",
   		"WT": 232,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2781,6 +3207,8 @@ const PLAYERS = {
   		"POS RK": 20,
   		"HT": "6-4",
   		"WT": 315,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2794,6 +3222,8 @@ const PLAYERS = {
   		"POS RK": 32,
   		"HT": "6-4",
   		"WT": 220,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2807,6 +3237,8 @@ const PLAYERS = {
   		"POS RK": 17,
   		"HT": "6-3",
   		"WT": 242,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2820,6 +3252,8 @@ const PLAYERS = {
   		"POS RK": 12,
   		"HT": "6-7",
   		"WT": 305,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2833,6 +3267,8 @@ const PLAYERS = {
   		"POS RK": 8,
   		"HT": "6-3",
   		"WT": 200,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2846,6 +3282,8 @@ const PLAYERS = {
   		"POS RK": 21,
   		"HT": "5-10",
   		"WT": 205,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2859,6 +3297,8 @@ const PLAYERS = {
   		"POS RK": 10,
   		"HT": "6-3",
   		"WT": 215,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2872,6 +3312,8 @@ const PLAYERS = {
   		"POS RK": 21,
   		"HT": "6-2",
   		"WT": 290,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2885,6 +3327,8 @@ const PLAYERS = {
   		"POS RK": 11,
   		"HT": "6-2",
   		"WT": 234,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2898,6 +3342,8 @@ const PLAYERS = {
   		"POS RK": 9,
   		"HT": "6-5",
   		"WT": 290,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2911,6 +3357,8 @@ const PLAYERS = {
   		"POS RK": 11,
   		"HT": "6-4",
   		"WT": 210,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2924,6 +3372,8 @@ const PLAYERS = {
   		"POS RK": 33,
   		"HT": "6-3",
   		"WT": 212,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2937,6 +3387,8 @@ const PLAYERS = {
   		"POS RK": 22,
   		"HT": "6-2",
   		"WT": 234,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2950,6 +3402,8 @@ const PLAYERS = {
   		"POS RK": 12,
   		"HT": "6-1",
   		"WT": 226,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2963,6 +3417,8 @@ const PLAYERS = {
   		"POS RK": 22,
   		"HT": "6-3",
   		"WT": 273,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2976,6 +3432,8 @@ const PLAYERS = {
   		"POS RK": 10,
   		"HT": "6-4",
   		"WT": 321,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -2989,6 +3447,8 @@ const PLAYERS = {
   		"POS RK": 23,
   		"HT": "6-0",
   		"WT": 305,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3002,6 +3462,8 @@ const PLAYERS = {
   		"POS RK": 13,
   		"HT": "6-1",
   		"WT": 195,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3015,6 +3477,8 @@ const PLAYERS = {
   		"POS RK": 23,
   		"HT": "6-6",
   		"WT": 262,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3028,6 +3492,8 @@ const PLAYERS = {
   		"POS RK": 23,
   		"HT": "5-11",
   		"WT": 193,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3041,6 +3507,8 @@ const PLAYERS = {
   		"POS RK": 18,
   		"HT": "6-3",
   		"WT": 230,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3054,6 +3522,8 @@ const PLAYERS = {
   		"POS RK": 13,
   		"HT": "6-7",
   		"WT": 305,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3067,6 +3537,8 @@ const PLAYERS = {
   		"POS RK": 29,
   		"HT": "6-3",
   		"WT": 204,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3080,6 +3552,8 @@ const PLAYERS = {
   		"POS RK": 34,
   		"HT": "6-2",
   		"WT": 205,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3093,6 +3567,8 @@ const PLAYERS = {
   		"POS RK": 12,
   		"HT": "6-4",
   		"WT": 305,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3106,6 +3582,8 @@ const PLAYERS = {
   		"POS RK": 24,
   		"HT": "6-5",
   		"WT": 280,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3119,6 +3597,8 @@ const PLAYERS = {
   		"POS RK": 19,
   		"HT": "6-3",
   		"WT": 243,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3132,6 +3612,8 @@ const PLAYERS = {
   		"POS RK": 25,
   		"HT": "6-0",
   		"WT": 305,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3145,6 +3627,8 @@ const PLAYERS = {
   		"POS RK": 35,
   		"HT": "6-3",
   		"WT": 225,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3158,6 +3642,8 @@ const PLAYERS = {
   		"POS RK": 9,
   		"HT": "6-0",
   		"WT": 199,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3171,6 +3657,8 @@ const PLAYERS = {
   		"POS RK": 14,
   		"HT": "6-6",
   		"WT": 308,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3184,6 +3672,8 @@ const PLAYERS = {
   		"POS RK": 36,
   		"HT": "5-11",
   		"WT": 197,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3197,6 +3687,8 @@ const PLAYERS = {
   		"POS RK": 15,
   		"HT": "6-3",
   		"WT": 300,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3210,6 +3702,8 @@ const PLAYERS = {
   		"POS RK": 20,
   		"HT": "6-2",
   		"WT": 230,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3223,6 +3717,8 @@ const PLAYERS = {
   		"POS RK": 9,
   		"HT": "6-3",
   		"WT": 237,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3236,6 +3732,8 @@ const PLAYERS = {
   		"POS RK": 14,
   		"HT": "6-0",
   		"WT": 190,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3249,6 +3747,8 @@ const PLAYERS = {
   		"POS RK": 12,
   		"HT": "6-4",
   		"WT": 225,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3262,6 +3762,8 @@ const PLAYERS = {
   		"POS RK": 11,
   		"HT": "6-2",
   		"WT": 334,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3275,6 +3777,8 @@ const PLAYERS = {
   		"POS RK": 26,
   		"HT": "6-4",
   		"WT": 305,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3288,6 +3792,8 @@ const PLAYERS = {
   		"POS RK": 30,
   		"HT": "5-9",
   		"WT": 180,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3301,6 +3807,8 @@ const PLAYERS = {
   		"POS RK": 12,
   		"HT": "6-7",
   		"WT": 300,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3314,6 +3822,8 @@ const PLAYERS = {
   		"POS RK": 13,
   		"HT": "6-2",
   		"WT": 260,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3327,6 +3837,8 @@ const PLAYERS = {
   		"POS RK": 21,
   		"HT": "6-2",
   		"WT": 225,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3340,6 +3852,8 @@ const PLAYERS = {
   		"POS RK": 10,
   		"HT": "6-4",
   		"WT": 240,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3353,6 +3867,8 @@ const PLAYERS = {
   		"POS RK": 24,
   		"HT": "6-1",
   		"WT": 229,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3366,6 +3882,8 @@ const PLAYERS = {
   		"POS RK": 24,
   		"HT": "6-3",
   		"WT": 255,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3379,6 +3897,8 @@ const PLAYERS = {
   		"POS RK": 37,
   		"HT": "5-10",
   		"WT": 195,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3392,6 +3912,8 @@ const PLAYERS = {
   		"POS RK": 31,
   		"HT": "5-9",
   		"WT": 180,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3405,6 +3927,8 @@ const PLAYERS = {
   		"POS RK": 25,
   		"HT": "5-9",
   		"WT": 205,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3418,6 +3942,8 @@ const PLAYERS = {
   		"POS RK": 11,
   		"HT": "6-4",
   		"WT": 245,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3431,6 +3957,8 @@ const PLAYERS = {
   		"POS RK": 22,
   		"HT": "6-3",
   		"WT": 249,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3444,6 +3972,8 @@ const PLAYERS = {
   		"POS RK": 10,
   		"HT": "6-0",
   		"WT": 200,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3457,6 +3987,8 @@ const PLAYERS = {
   		"POS RK": 26,
   		"HT": "5-11",
   		"WT": 223,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3470,6 +4002,8 @@ const PLAYERS = {
   		"POS RK": 23,
   		"HT": "6-2",
   		"WT": 244,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3483,6 +4017,8 @@ const PLAYERS = {
   		"POS RK": 27,
   		"HT": "5-8",
   		"WT": 190,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3496,6 +4032,8 @@ const PLAYERS = {
   		"POS RK": 32,
   		"HT": "6-0",
   		"WT": 180,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3509,6 +4047,8 @@ const PLAYERS = {
   		"POS RK": 13,
   		"HT": "6-4",
   		"WT": 295,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3522,6 +4062,8 @@ const PLAYERS = {
   		"POS RK": 38,
   		"HT": "6-4",
   		"WT": 213,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3535,6 +4077,8 @@ const PLAYERS = {
   		"POS RK": 24,
   		"HT": "6-4",
   		"WT": 225,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3548,6 +4092,8 @@ const PLAYERS = {
   		"POS RK": 33,
   		"HT": "6-2",
   		"WT": 197,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3561,6 +4107,8 @@ const PLAYERS = {
   		"POS RK": 39,
   		"HT": "6-2",
   		"WT": 187,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3574,6 +4122,8 @@ const PLAYERS = {
   		"POS RK": 28,
   		"HT": "6-0",
   		"WT": 225,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3587,6 +4137,8 @@ const PLAYERS = {
   		"POS RK": 25,
   		"HT": "6-4",
   		"WT": 248,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3600,6 +4152,8 @@ const PLAYERS = {
   		"POS RK": 25,
   		"HT": "6-4",
   		"WT": 292,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3613,6 +4167,8 @@ const PLAYERS = {
   		"POS RK": 29,
   		"HT": "6-4",
   		"WT": 250,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3626,6 +4182,8 @@ const PLAYERS = {
   		"POS RK": 15,
   		"HT": "6-0",
   		"WT": 193,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3639,6 +4197,8 @@ const PLAYERS = {
   		"POS RK": 12,
   		"HT": "6-5",
   		"WT": 250,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3652,6 +4212,8 @@ const PLAYERS = {
   		"POS RK": 14,
   		"HT": "6-2",
   		"WT": 322,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3665,6 +4227,8 @@ const PLAYERS = {
   		"POS RK": 16,
   		"HT": "6-2",
   		"WT": 220,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3678,6 +4242,8 @@ const PLAYERS = {
   		"POS RK": 40,
   		"HT": "5-10",
   		"WT": 180,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3691,6 +4257,8 @@ const PLAYERS = {
   		"POS RK": 30,
   		"HT": "5-11",
   		"WT": 194,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3704,6 +4272,8 @@ const PLAYERS = {
   		"POS RK": 16,
   		"HT": "6-5",
   		"WT": 295,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3717,6 +4287,8 @@ const PLAYERS = {
   		"POS RK": 34,
   		"HT": "5-9",
   		"WT": 190,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3730,6 +4302,8 @@ const PLAYERS = {
   		"POS RK": 41,
   		"HT": "6-5",
   		"WT": 205,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3743,6 +4317,8 @@ const PLAYERS = {
   		"POS RK": 26,
   		"HT": "6-1",
   		"WT": 240,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3756,6 +4332,8 @@ const PLAYERS = {
   		"POS RK": 31,
   		"HT": "5-9",
   		"WT": 175,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3769,6 +4347,8 @@ const PLAYERS = {
   		"POS RK": 17,
   		"HT": "6-7",
   		"WT": 310,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3782,6 +4362,8 @@ const PLAYERS = {
   		"POS RK": 13,
   		"HT": "6-5",
   		"WT": 250,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3795,6 +4377,8 @@ const PLAYERS = {
   		"POS RK": 42,
   		"HT": "6-3",
   		"WT": 212,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3808,6 +4392,8 @@ const PLAYERS = {
   		"POS RK": 14,
   		"HT": "6-2",
   		"WT": 224,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3821,6 +4407,8 @@ const PLAYERS = {
   		"POS RK": 13,
   		"HT": "6-6",
   		"WT": 232,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3834,6 +4422,8 @@ const PLAYERS = {
   		"POS RK": 14,
   		"HT": "6-4",
   		"WT": 267,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3847,6 +4437,8 @@ const PLAYERS = {
   		"POS RK": 35,
   		"HT": "5-11",
   		"WT": 200,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3860,6 +4452,8 @@ const PLAYERS = {
   		"POS RK": 26,
   		"HT": "6-4",
   		"WT": 232,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3873,6 +4467,8 @@ const PLAYERS = {
   		"POS RK": 15,
   		"HT": "6-3",
   		"WT": 248,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3886,6 +4482,8 @@ const PLAYERS = {
   		"POS RK": 1,
   		"HT": "5-11",
   		"WT": 178,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3899,6 +4497,8 @@ const PLAYERS = {
   		"POS RK": 15,
   		"HT": "6-5",
   		"WT": 335,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3912,6 +4512,8 @@ const PLAYERS = {
   		"POS RK": 27,
   		"HT": "6-3",
   		"WT": 246,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3925,6 +4527,8 @@ const PLAYERS = {
   		"POS RK": 36,
   		"HT": "5-10",
   		"WT": 175,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3938,6 +4542,8 @@ const PLAYERS = {
   		"POS RK": 14,
   		"HT": "6-4",
   		"WT": 215,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3951,6 +4557,8 @@ const PLAYERS = {
   		"POS RK": 18,
   		"HT": "6-7",
   		"WT": 314,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3964,6 +4572,8 @@ const PLAYERS = {
   		"POS RK": 37,
   		"HT": "5-11",
   		"WT": 195,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3977,6 +4587,8 @@ const PLAYERS = {
   		"POS RK": 43,
   		"HT": "5-9",
   		"WT": 186,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -3990,6 +4602,8 @@ const PLAYERS = {
   		"POS RK": 13,
   		"HT": "6-5",
   		"WT": 312,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4003,6 +4617,8 @@ const PLAYERS = {
   		"POS RK": 1,
   		"HT": "6-3",
   		"WT": 205,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4016,6 +4632,8 @@ const PLAYERS = {
   		"POS RK": 15,
   		"HT": "6-1",
   		"WT": 220,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4029,6 +4647,8 @@ const PLAYERS = {
   		"POS RK": 38,
   		"HT": "6-1",
   		"WT": 181,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4042,6 +4662,8 @@ const PLAYERS = {
   		"POS RK": 19,
   		"HT": "6-5",
   		"WT": 299,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4055,6 +4677,8 @@ const PLAYERS = {
   		"POS RK": 39,
   		"HT": "6-1",
   		"WT": 190,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4068,6 +4692,8 @@ const PLAYERS = {
   		"POS RK": 16,
   		"HT": "6-3",
   		"WT": 225,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4081,6 +4707,8 @@ const PLAYERS = {
   		"POS RK": 44,
   		"HT": "5-8",
   		"WT": 190,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4094,6 +4722,8 @@ const PLAYERS = {
   		"POS RK": 11,
   		"HT": "6-2",
   		"WT": 198,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4107,6 +4737,8 @@ const PLAYERS = {
   		"POS RK": 27,
   		"HT": "6-4",
   		"WT": 306,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4120,6 +4752,8 @@ const PLAYERS = {
   		"POS RK": 2,
   		"HT": "6-6",
   		"WT": 204,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4133,6 +4767,8 @@ const PLAYERS = {
   		"POS RK": 20,
   		"HT": "6-6",
   		"WT": 305,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4146,6 +4782,8 @@ const PLAYERS = {
   		"POS RK": 16,
   		"HT": "6-2",
   		"WT": 223,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4159,6 +4797,8 @@ const PLAYERS = {
   		"POS RK": 15,
   		"HT": "6-6",
   		"WT": 242,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4172,6 +4812,8 @@ const PLAYERS = {
   		"POS RK": 40,
   		"HT": "6-0",
   		"WT": 198,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4185,6 +4827,8 @@ const PLAYERS = {
   		"POS RK": 28,
   		"HT": "6-3",
   		"WT": 314,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4198,6 +4842,8 @@ const PLAYERS = {
   		"POS RK": 32,
   		"HT": "5-10",
   		"WT": 210,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4211,6 +4857,8 @@ const PLAYERS = {
   		"POS RK": 29,
   		"HT": "6-2",
   		"WT": 280,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4224,6 +4872,8 @@ const PLAYERS = {
   		"POS RK": 17,
   		"HT": "5-10",
   		"WT": 210,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4237,6 +4887,8 @@ const PLAYERS = {
   		"POS RK": 17,
   		"HT": "6-0",
   		"WT": 240,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4250,6 +4902,8 @@ const PLAYERS = {
   		"POS RK": 21,
   		"HT": "6-7",
   		"WT": 305,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4263,6 +4917,8 @@ const PLAYERS = {
   		"POS RK": 41,
   		"HT": "6-0",
   		"WT": 186,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4276,6 +4932,8 @@ const PLAYERS = {
   		"POS RK": 22,
   		"HT": "6-5",
   		"WT": 313,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4289,6 +4947,8 @@ const PLAYERS = {
   		"POS RK": 42,
   		"HT": "5-11",
   		"WT": 193,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4302,6 +4962,8 @@ const PLAYERS = {
   		"POS RK": 23,
   		"HT": "6-6",
   		"WT": 320,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4315,6 +4977,8 @@ const PLAYERS = {
   		"POS RK": 24,
   		"HT": "6-5",
   		"WT": 320,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4328,6 +4992,8 @@ const PLAYERS = {
   		"POS RK": 17,
   		"HT": "5-11",
   		"WT": 189,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4341,6 +5007,8 @@ const PLAYERS = {
   		"POS RK": 18,
   		"HT": "6-4",
   		"WT": 220,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4354,6 +5022,8 @@ const PLAYERS = {
   		"POS RK": 45,
   		"HT": "6-2",
   		"WT": 196,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4367,6 +5037,8 @@ const PLAYERS = {
   		"POS RK": 30,
   		"HT": "6-2",
   		"WT": 327,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4380,6 +5052,8 @@ const PLAYERS = {
   		"POS RK": 43,
   		"HT": "6-0",
   		"WT": 200,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4393,6 +5067,8 @@ const PLAYERS = {
   		"POS RK": 31,
   		"HT": "6-2",
   		"WT": 305,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4406,6 +5082,8 @@ const PLAYERS = {
   		"POS RK": 25,
   		"HT": "6-6",
   		"WT": 302,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4419,6 +5097,8 @@ const PLAYERS = {
   		"POS RK": 28,
   		"HT": "6-2",
   		"WT": 230,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4432,6 +5112,8 @@ const PLAYERS = {
   		"POS RK": 44,
   		"HT": "6-1",
   		"WT": 186,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4445,6 +5127,8 @@ const PLAYERS = {
   		"POS RK": 18,
   		"HT": "6-1",
   		"WT": 230,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4458,6 +5142,8 @@ const PLAYERS = {
   		"POS RK": 32,
   		"HT": "6-4",
   		"WT": 301,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4471,6 +5157,8 @@ const PLAYERS = {
   		"POS RK": 2,
   		"HT": "6-5",
   		"WT": 213,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4484,6 +5172,8 @@ const PLAYERS = {
   		"POS RK": 45,
   		"HT": "6-0",
   		"WT": 200,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4497,6 +5187,8 @@ const PLAYERS = {
   		"POS RK": 16,
   		"HT": "6-6",
   		"WT": 280,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4510,6 +5202,8 @@ const PLAYERS = {
   		"POS RK": 33,
   		"HT": "6-3",
   		"WT": 280,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4523,6 +5217,8 @@ const PLAYERS = {
   		"POS RK": 3,
   		"HT": "6-7",
   		"WT": 225,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4536,6 +5232,8 @@ const PLAYERS = {
   		"POS RK": 46,
   		"HT": "5-10",
   		"WT": 185,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4549,6 +5247,8 @@ const PLAYERS = {
   		"POS RK": 46,
   		"HT": "6-1",
   		"WT": 199,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4562,6 +5262,8 @@ const PLAYERS = {
   		"POS RK": 16,
   		"HT": "6-3",
   		"WT": 321,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4575,6 +5277,8 @@ const PLAYERS = {
   		"POS RK": 3,
   		"HT": "5-10",
   		"WT": 178,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4588,6 +5292,8 @@ const PLAYERS = {
   		"POS RK": 27,
   		"HT": "6-4",
   		"WT": 275,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4601,6 +5307,8 @@ const PLAYERS = {
   		"POS RK": 19,
   		"HT": "6-1",
   		"WT": 209,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4614,6 +5322,8 @@ const PLAYERS = {
   		"POS RK": 47,
   		"HT": "6-1",
   		"WT": 185,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4627,6 +5337,8 @@ const PLAYERS = {
   		"POS RK": 33,
   		"HT": "6-0",
   		"WT": 235,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4640,6 +5352,8 @@ const PLAYERS = {
   		"POS RK": 47,
   		"HT": "6-1",
   		"WT": 194,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4653,6 +5367,8 @@ const PLAYERS = {
   		"POS RK": 4,
   		"HT": "6-1",
   		"WT": 211,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4666,6 +5382,8 @@ const PLAYERS = {
   		"POS RK": 2,
   		"HT": "6-3",
   		"WT": 255,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4679,6 +5397,8 @@ const PLAYERS = {
   		"POS RK": 34,
   		"HT": "6-4",
   		"WT": 290,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4692,6 +5412,8 @@ const PLAYERS = {
   		"POS RK": 48,
   		"HT": "6-0",
   		"WT": 195,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4705,6 +5427,8 @@ const PLAYERS = {
   		"POS RK": 17,
   		"HT": "6-5",
   		"WT": 255,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4718,6 +5442,8 @@ const PLAYERS = {
   		"POS RK": 49,
   		"HT": "6-1",
   		"WT": 185,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4731,6 +5457,8 @@ const PLAYERS = {
   		"POS RK": 34,
   		"HT": "5-10",
   		"WT": 219,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4744,6 +5472,8 @@ const PLAYERS = {
   		"POS RK": 35,
   		"HT": "6-4",
   		"WT": 315,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4757,6 +5487,8 @@ const PLAYERS = {
   		"POS RK": 18,
   		"HT": "6-1",
   		"WT": 205,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4770,6 +5502,8 @@ const PLAYERS = {
   		"POS RK": 1,
   		"HT": "6-1",
   		"WT": 242,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4783,6 +5517,8 @@ const PLAYERS = {
   		"POS RK": 12,
   		"HT": "6-0",
   		"WT": 208,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4796,6 +5532,8 @@ const PLAYERS = {
   		"POS RK": 48,
   		"HT": "6-3",
   		"WT": 205,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4809,6 +5547,8 @@ const PLAYERS = {
   		"POS RK": 5,
   		"HT": "6-3",
   		"WT": 220,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4822,6 +5562,8 @@ const PLAYERS = {
   		"POS RK": 50,
   		"HT": "6-3",
   		"WT": 193,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4835,6 +5577,8 @@ const PLAYERS = {
   		"POS RK": 6,
   		"HT": "6-1",
   		"WT": 227,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4848,6 +5592,8 @@ const PLAYERS = {
   		"POS RK": 4,
   		"HT": "5-11",
   		"WT": 200,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4861,6 +5607,8 @@ const PLAYERS = {
   		"POS RK": 20,
   		"HT": "6-2",
   		"WT": 215,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4874,6 +5622,8 @@ const PLAYERS = {
   		"POS RK": 7,
   		"HT": "6-6",
   		"WT": 225,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4887,6 +5637,8 @@ const PLAYERS = {
   		"POS RK": 36,
   		"HT": "6-0",
   		"WT": 300,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4900,6 +5652,8 @@ const PLAYERS = {
   		"POS RK": 51,
   		"HT": "6-0",
   		"WT": 210,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null
@@ -4913,6 +5667,8 @@ const PLAYERS = {
   		"POS RK": 14,
   		"HT": "6-2",
   		"WT": 300,
+      "DRAFT_RD": 0,
+      "DRAFT_RD_POS": 0,
       "DRAFT_RK": 0,
       "TEAM": "",
       "NFL_IMG_ID": null

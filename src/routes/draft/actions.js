@@ -9,7 +9,7 @@ import {
   FETCH_YOUTUBE_LIST_START,
   FETCH_YOUTUBE_LIST_RESULTS,
   FETCH_YOUTUBE_LIST_ERROR,
-  SELECT_YOUTUBE_VIDEO
+  SELECT_YOUTUBE_VIDEO,
 } from '../../constants';
 
 export const fetchYoutubeList = (query) => {

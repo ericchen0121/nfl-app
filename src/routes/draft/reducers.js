@@ -1,4 +1,8 @@
-import { FETCH_YOUTUBE_LIST_RESULTS, FETCH_YOUTUBE_LIST_ERROR, SELECT_YOUTUBE_VIDEO} from '../../constants';
+import {
+  FETCH_YOUTUBE_LIST_RESULTS,
+  FETCH_YOUTUBE_LIST_ERROR,
+  SELECT_YOUTUBE_VIDEO,
+} from '../../constants';
 
 const initialState = {
   data: [],
