@@ -22,9 +22,25 @@ class DraftListItem extends React.Component {
     position: PropTypes.string.isRequired,
   };
 
+  handleItemClick = () => {
+    const { player } = this.props
+    this.props.actions.selectDraftPlayer(player)
+    this.props.actions.fetchYoutubeList(this.createQuery(player.PLAYER, player.POS))
+  }
+
+  createQuery = (name, position) => {
+    return `${name}+${position}+highlights+draft`
+  }
+
   render() {
-    const { name, position, nfl_img_id, team, draft_rk } = this.props;
-    const query = `${name}+${position}+highlights+draft`;
+    const { player } = this.props;
+    const name = player.PLAYER
+    const position = player.POS
+    const nfl_img_id = player.NFL_IMG_ID
+    const team  = player.TEAM
+    const draft_rk = player.DRAFT_RK
+    const query = this.createQuery(name, position)
+    const handleItemClick = this.handleItemClick.bind(this)
 
     const yt = `https://www.youtube.com/results?search_query=${query}`;
     const link = (
@@ -52,7 +68,7 @@ class DraftListItem extends React.Component {
     return (
       <ListItem
         key={name}
-        onClick={() => this.props.actions.fetchYoutubeList(query)}
+        onClick={ handleItemClick }
       >
          { draft_rk }{logo} {avatar} {position} {name} {link}
       </ListItem>

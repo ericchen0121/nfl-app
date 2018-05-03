@@ -5,12 +5,17 @@ const YT_API_URL = 'https://www.googleapis.com/youtube/v3'
 const YT_MAX_RESULTS = 10
 
 import {
+  SELECT_DRAFT_PLAYER,
   FETCH_YOUTUBE_LIST,
   FETCH_YOUTUBE_LIST_START,
   FETCH_YOUTUBE_LIST_RESULTS,
   FETCH_YOUTUBE_LIST_ERROR,
   SELECT_YOUTUBE_VIDEO,
 } from '../../constants';
+
+export const selectDraftPlayer = (data) => {
+  return { type: SELECT_DRAFT_PLAYER, data }
+}
 
 export const fetchYoutubeList = (query) => {
     return dispatch => {

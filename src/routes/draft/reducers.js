@@ -1,4 +1,5 @@
 import {
+  SELECT_DRAFT_PLAYER,
   FETCH_YOUTUBE_LIST_RESULTS,
   FETCH_YOUTUBE_LIST_ERROR,
   SELECT_YOUTUBE_VIDEO,
@@ -6,7 +7,8 @@ import {
 
 const initialState = {
   data: [],
-  selected_video: null
+  selected_video: null,
+  selected_player: null
 }
 
 const youtube_list = (state = initialState, action) => {
@@ -22,6 +24,11 @@ const youtube_list = (state = initialState, action) => {
         ...state,
         selected_video: action.data
       }
+    case SELECT_DRAFT_PLAYER:
+    return {
+      ...state,
+      selected_player: action.data
+    }
     default:
       return state;
   }

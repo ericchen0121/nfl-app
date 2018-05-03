@@ -14,10 +14,11 @@ import s from './Draft.css';
 
 import DraftListItem from './DraftListItem';
 import DraftVideo from './DraftVideo';
+import DraftVideoTitle from './DraftVideoTitle';
 import DraftPlaylist from './DraftPlaylist';
 import DraftFilters from './DraftFilters';
 import PLAYERS from './DraftPlayers';
-
+import { FILTERS, DEFAULT_TOP_LEVEL_FILTER } from './DraftFilterConstants'
 import List from 'material-ui/List';
 import Grid from 'material-ui/Grid';
 import Paper from 'material-ui/Paper';
@@ -26,73 +27,7 @@ import * as Actions from './actions';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-const FILTERS = {
-  ROUND: [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    'udfa'
-  ],
-  TEAM: [
-    'ARI',
-    'ATL',
-    'BAL',
-    'BUF',
-    'CAR',
-    'CHI',
-    'CIN',
-    'CLE',
-    'DAL',
-    'DEN',
-    'DET',
-    'GB',
-    'HOU',
-    'IND',
-    'JAX',
-    'KC',
-    'LAC',
-    'LAR',
-    'MIA',
-    'MIN',
-    'NE',
-    'NO',
-    'NYG',
-    'NYJ',
-    'OAK',
-    'PHI',
-    'PIT',
-    'SEA',
-    'SF',
-    'TB',
-    'TEN',
-    'WSH'
-  ],
-  POSITION: [
-    'QB',
-    'RB',
-    'WR',
-    'TE',
-    'FB',
-    'OT',
-    'OG',
-    'C',
-    'DE',
-    'DT',
-    'ILB',
-    'OLB',
-    'CB',
-    'S',
-    'LS',
-    'K',
-    'P'
-  ]
-}
 
-const DEFAULT_TOP_LEVEL_FILTER = 'ROUND'
 
 class Draft extends React.Component {
   state = {
@@ -113,17 +48,43 @@ class Draft extends React.Component {
     })
   }
 
+  // players is ARRAY of player objects
+  // returns filtered array of player objects based on top and lower level filters
+  filterResults = (players) => {
+    let {top_level_filter_selected, lower_level_filter_selected} = this.state
+    let key = null
+    if(top_level_filter_selected === 'ROUND') {
+      key = 'DRAFT_RD'
+    } else if (top_level_filter_selected === 'TEAM') {
+      key = 'TEAM'
+    } else if (top_level_filter_selected === 'POSITION') {
+      key = 'POS'
+    }
+
+    let filtered_players = players.filter(player => {
+      return player[key] === lower_level_filter_selected
+    })
+
+    return filtered_players
+  }
+
+  sortResults = (players) => {
+    return players.sort((a,b) => a.DRAFT_RK - b.DRAFT_RK)
+  }
+
   render() {
     const { classes } = this.props;
     const { top_level_filter_selected, lower_level_filter_selected  } = this.state
-    let order_players = PLAYERS.players.sort((a,b) => b.DRAFT_RK - a.DRAFT_RK)
+    let order_players = this.sortResults(this.filterResults(PLAYERS.players))
+
     const list = order_players.map(p => (
       <DraftListItem
+        player={p}
         name={p.PLAYER}
         position={p.POS}
         nfl_img_id={p.NFL_IMG_ID}
         team={p.TEAM}
-        draft_rk = {p.DRAFT_RK}
+        draft_rk={p.DRAFT_RK}
         {...this.props}
       />
     ))
@@ -142,6 +103,7 @@ class Draft extends React.Component {
             <List>{list}</List>
           </div>
           <div className={s.item_vids}>
+            <DraftVideoTitle {...this.props} />
             <DraftVideo {...this.props} />
           </div>
           <div className={s.item_playlist}>
