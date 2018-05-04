@@ -41,7 +41,7 @@ export const FILTERS = {
     'SF',
     'TB',
     'TEN',
-    'WSH'
+    'WAS'
   ],
   POSITION: [
     'QB',

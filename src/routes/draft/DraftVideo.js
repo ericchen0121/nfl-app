@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
 import ReactPlayer from 'react-player';
+import s from './Draft.css'
 
 const VID_HEIGHT = 360
 const VID_WIDTH = 640
@@ -19,14 +20,16 @@ class DraftVideo extends React.Component {
       const WIDTH = `${VID_WIDTH * VID_RATIO}px`
 
       vid = (
-        <ReactPlayer
-          url={`https://www.youtube.com/watch?v=${id}`}
-          width={WIDTH}
-          height={HEIGHT}
-          style={{height: HEIGHT, width: WIDTH }}
-          playing
-          controls={true}
-          />
+        <div className={s.video}>
+          <ReactPlayer
+            url={`https://www.youtube.com/watch?v=${id}`}
+            width={WIDTH}
+            height={HEIGHT}
+            style={{height: HEIGHT, width: WIDTH }}
+            playing
+            controls={true}
+            />
+        </div>
       );
     }
 

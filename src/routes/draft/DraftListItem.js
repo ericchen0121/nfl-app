@@ -39,6 +39,8 @@ class DraftListItem extends React.Component {
     const nfl_img_id = player.NFL_IMG_ID
     const team  = player.TEAM
     const draft_rk = player.DRAFT_RK
+    const draft_rd = player.DRAFT_RD
+    const draft_rd_pos = player.DRAFT_RD_POS
     const query = this.createQuery(name, position)
     const handleItemClick = this.handleItemClick.bind(this)
 
@@ -59,18 +61,35 @@ class DraftListItem extends React.Component {
     let logo = <div className={s.logo} />
     if (team) {
       logo = (
-        <div className={s.logo}>
+        <span className={s.logo}>
           <img src={logo_src} />
-        </div>
+        </span>
       )
     }
 
+    let draft_position_overall = null
+    if (draft_rd !== 1) {
+      draft_position_overall = <span>[{draft_rk}]</span>
+    }
+    let draft_position_display = (
+      <span className={s.draft_position_container}>
+        <div>{ draft_rd_pos }</div>
+        <div className={s.draft_position_overall}>{ draft_position_overall }</div>
+      </span>
+    )
+
+    let team_position_display = (
+      <span className={s.logo_position_container}>
+        <div>{ logo }</div>
+        <div className={s.position}>{ position }</div>
+      </span>
+    )
     return (
       <ListItem
         key={name}
         onClick={ handleItemClick }
       >
-         { draft_rk }{logo} {avatar} {position} {name} {link}
+         { draft_position_display }{ team_position_display } {avatar} {name}
       </ListItem>
     );
   }

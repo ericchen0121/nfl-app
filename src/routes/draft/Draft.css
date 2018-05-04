@@ -66,3 +66,36 @@
   height: 30px;
   width: 30px
 }
+
+.playerItem {
+  cursor: pointer;
+}
+
+.tab {
+  min-width: 95px;
+}
+
+.video {
+  margin-left: 65px;
+}
+
+.draft_position_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo_position_container {
+  display: flex;
+  flex-direction: column;
+}
+.draft_position_overall {
+  font-size: 9px;
+  margin-right: 10px;
+  font-weight: normal;
+}
+
+.position {
+  font-size: 12px;
+  font-weight: lighter;
+  margin-left: .4em;
+}

@@ -13,6 +13,13 @@ const styles = theme => ({
   button: {
     margin: theme.spacing.unit,
   },
+  logo: {
+    width: 30,
+    height: 30
+  },
+  tab: {
+    minWidth: 95
+  }
 });
 
 
@@ -29,6 +36,7 @@ class DraftFilters extends Component {
             color="primary"
             className={classes.button}
             onClick={ onTopLevelFilterChange(filter) }
+            value={filter}
           >
             { filter }
           </Button>
@@ -38,6 +46,11 @@ class DraftFilters extends Component {
 
     // NOTE: BUTTONS - BACKUP BUT NOT CURRENTLY USED
     // let lower_level_buttons = filters[top_level_filter_selected].map(filter => { <Button size="small" color='secondary' className={classes.button}>{ filter }</Button> })
+
+
+    let logo = (team) => {
+      return <img className={s.logo} src={`https://static.nfl.com/static/site/img/logos/svg/teams/${team}.svg`}/>
+    }
 
     let lower_level_appbar = (
       <AppBar position="static" color="default">
@@ -50,7 +63,14 @@ class DraftFilters extends Component {
           scrollButtons="auto"
         >
           {
-            filters[top_level_filter_selected].map(filter => <Tab label={ filter } value = { filter }/>)
+            filters[top_level_filter_selected].map(filter => {
+              if (top_level_filter_selected === 'TEAM') {
+                return <Tab icon={ logo(filter)} label={ filter } value = { filter }/>
+              }
+              else {
+                  return <Tab label={ filter } value = { filter }/>
+              }
+            })
           }
         </Tabs>
       </AppBar>
