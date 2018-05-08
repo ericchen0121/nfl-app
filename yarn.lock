@@ -7445,9 +7445,9 @@ react-event-listener@^0.5.1:
     prop-types "^15.6.0"
     warning "^3.0.0"
 
-react-icons-kit@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/react-icons-kit/-/react-icons-kit-1.0.7.tgz#c5d9e31d71b2bcfe0baf653938ea2c15802c2ee4"
+react-icons-kit@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/react-icons-kit/-/react-icons-kit-1.1.4.tgz#dd292f774a7d24e0e416a71b721eba6743e62803"
   dependencies:
     camel-case "^3.0.0"
     prop-types "^15.5.8"

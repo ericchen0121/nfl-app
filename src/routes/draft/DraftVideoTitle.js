@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
+// import { withStyles } from 'material-ui/styles';
 import Paper from 'material-ui/Paper';
+import s from './Draft.css';
+import withStyles from 'isomorphic-style-loader/lib/withStyles';
 
 class DraftVideo extends React.Component {
 
@@ -12,7 +14,7 @@ class DraftVideo extends React.Component {
     let title = null
     if (player) {
       return (
-        <div className="video_player_title">
+        <div className={s.video_player_title}>
             { player.POS } { player.PLAYER }
         </div>
       )
@@ -21,4 +23,4 @@ class DraftVideo extends React.Component {
   }
 }
 
-export default DraftVideo;
+export default withStyles(s)(DraftVideo);
