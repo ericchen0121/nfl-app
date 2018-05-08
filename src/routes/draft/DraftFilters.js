@@ -78,7 +78,7 @@ class DraftFilters extends Component {
 
     return (
         <div className="filter_container">
-          { top_level_buttons }
+          <div className={s.center}>{ top_level_buttons }</div>
           { lower_level_appbar }
         </div>
     )
