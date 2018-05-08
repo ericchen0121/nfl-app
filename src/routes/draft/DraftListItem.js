@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Draft.css';
-import { NFL_IMG, NFL_PARAMS, NFL_LOGO } from './DraftFilterConstants'
+import { NFL_IMG_COMPOSER, NFL_IMG, NFL_PARAMS, NFL_LOGO } from './DraftFilterConstants'
 import {
   ListItem,
   ListItemSecondaryAction,
@@ -53,7 +53,7 @@ class DraftListItem extends React.Component {
 
     let avatar = null
     if (nfl_img_id) (
-      avatar = <img className={s.avatar} src={`${NFL_IMG}/${nfl_img_id}.png`} />
+      avatar = <img className={s.avatar} src={`${NFL_IMG_COMPOSER}${NFL_IMG}/${nfl_img_id}.png${NFL_PARAMS}`} />
     )
 
     let logo_src = `${NFL_LOGO}/${team}.svg`

@@ -225,7 +225,7 @@ const PLAYERS = {
       "DRAFT_RD": 5,
       "DRAFT_RD_POS": 23,
       "DRAFT_RK": 160,
-      "TEAM": "LAR",
+      "TEAM": "LA",
       "NFL_IMG_ID": 2559945
   	},
   	{
@@ -1650,7 +1650,7 @@ const PLAYERS = {
       "DRAFT_RD": 2,
       "DRAFT_RD_POS": 25,
       "DRAFT_RK": 89,
-      "TEAM": "LAR",
+      "TEAM": "LA",
       "NFL_IMG_ID": 2559841
   	},
   	{
@@ -2070,7 +2070,7 @@ const PLAYERS = {
       "DRAFT_RD": 5,
       "DRAFT_RD_POS": 10,
       "DRAFT_RK": 147,
-      "TEAM": "LAR",
+      "TEAM": "LA",
       "NFL_IMG_ID": 2559888
   	},
   	{
@@ -2235,7 +2235,7 @@ const PLAYERS = {
       "DRAFT_RD": 6,
       "DRAFT_RD_POS": 31,
       "DRAFT_RK": 205,
-      "TEAM": "LAR",
+      "TEAM": "LA",
       "NFL_IMG_ID": 2560201
   	},
   	{
@@ -2310,7 +2310,7 @@ const PLAYERS = {
       "DRAFT_RD": 6,
       "DRAFT_RD_POS": 2,
       "DRAFT_RK": 176,
-      "TEAM": "LAR",
+      "TEAM": "LA",
       "NFL_IMG_ID": 2560191
   	},
   	{
@@ -2385,7 +2385,7 @@ const PLAYERS = {
       "DRAFT_RD": 4,
       "DRAFT_RD_POS": 11,
       "DRAFT_RK": 111,
-      "TEAM": "LAR",
+      "TEAM": "LA",
       "NFL_IMG_ID": 2559826
   	},
   	{
@@ -4155,7 +4155,7 @@ const PLAYERS = {
       "DRAFT_RD": 4,
       "DRAFT_RD_POS": 35,
       "DRAFT_RK": 135,
-      "TEAM": "LAR",
+      "TEAM": "LA",
       "NFL_IMG_ID": 2560139
   	},
   	{
@@ -4500,7 +4500,7 @@ const PLAYERS = {
       "DRAFT_RD": 6,
       "DRAFT_RD_POS": 18,
       "DRAFT_RK": 192,
-      "TEAM": "LAR",
+      "TEAM": "LA",
       "NFL_IMG_ID": 2560118
   	},
   	{
