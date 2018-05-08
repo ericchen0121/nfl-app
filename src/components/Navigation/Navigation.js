@@ -15,6 +15,7 @@ import Link from '../Link';
 
 class Navigation extends React.Component {
   render() {
+    return <div />
     return (
       <div className={s.root} role="navigation">
         <Link className={s.link} to="/about">

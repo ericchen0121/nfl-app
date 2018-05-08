@@ -41,6 +41,10 @@ class DraftListItem extends React.Component {
     const draft_rk = player.DRAFT_RK
     const draft_rd = player.DRAFT_RD
     const draft_rd_pos = player.DRAFT_RD_POS
+    const school = player.SCHOOL
+    const year = player.YEAR
+    const height = player.HT
+    const weight = player.WT
     const query = this.createQuery(name, position)
     const handleItemClick = this.handleItemClick.bind(this)
 
@@ -67,29 +71,44 @@ class DraftListItem extends React.Component {
       )
     }
 
-    let draft_position_overall = null
+    let draft_round_display = (
+      <span className={s.flex_container, s.spacer}>
+        <div className={s.draft_rd}>{ draft_rd }</div>
+      </span>
+    )
+
+    let draft_position_overall = <div />
     if (draft_rd !== 1) {
       draft_position_overall = <span>[{draft_rk}]</span>
     }
+
     let draft_position_display = (
-      <span className={s.draft_position_container}>
-        <div>{ draft_rd_pos }</div>
+      <span className={s.flex_container, s.spacer_small}>
+        <div className={s.draft_round_pos}>{ draft_rd_pos }</div>
         <div className={s.draft_position_overall}>{ draft_position_overall }</div>
       </span>
     )
 
     let team_position_display = (
-      <span className={s.logo_position_container}>
+      <span className={s.flex_container}>
         <div>{ logo }</div>
-        <div className={s.position}>{ position }</div>
+        <div className={s.sub_info_larger}>{ position }</div>
       </span>
     )
+
+    let name_college_display = (
+      <span className={s.flex_container}>
+        <div>{ name }</div>
+        <div className={s.sub_info}>{ school } / <i>{ year }</i> / { height } / { weight } lbs</div>
+      </span>
+    )
+
     return (
       <ListItem
         key={name}
         onClick={ handleItemClick }
       >
-         { draft_position_display }{ team_position_display } {avatar} {name}
+         { draft_round_display } { draft_position_display }{ team_position_display } {avatar} { name_college_display }
       </ListItem>
     );
   }

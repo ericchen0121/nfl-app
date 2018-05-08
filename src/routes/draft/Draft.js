@@ -72,10 +72,16 @@ class Draft extends React.Component {
     return players.sort((a,b) => a.DRAFT_RK - b.DRAFT_RK)
   }
 
+  removeUndrafted = (players) => {
+    return players.filter(player => {
+      return player['DRAFT_RD'] !== 0
+    })
+  }
+
   render() {
     const { classes } = this.props;
     const { top_level_filter_selected, lower_level_filter_selected  } = this.state
-    let order_players = this.sortResults(this.filterResults(PLAYERS.players))
+    let order_players = this.sortResults(this.filterResults(this.removeUndrafted(PLAYERS.players)))
 
     const list = order_players.map(p => (
       <DraftListItem
