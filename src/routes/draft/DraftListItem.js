@@ -98,7 +98,7 @@ class DraftListItem extends React.Component {
 
     let name_college_display = (
       <span className={s.flex_container}>
-        <div>{ name }</div>
+        <div className={s.name}>{ name }</div>
         <div className={s.sub_info}>{ school } / <i>{ year }</i> / { height } / { weight } lbs</div>
       </span>
     )

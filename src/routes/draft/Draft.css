@@ -22,7 +22,8 @@
 
 .avatar {
   height: 43px;
-  width: 60px
+  width: 60px;
+  margin: 0 6px 0 8px;  
 }
 
 .wrapper {
@@ -83,6 +84,7 @@
   display: flex;
   flex-direction: column;
 }
+
 .draft_position_overall {
   font-size: 9px;
   font-weight: normal;
@@ -91,20 +93,23 @@
 .sub_info {
   font-size: 12px;
   font-weight: lighter;
-  margin-left: .4em;
+  margin-left: 0.4em;
+  color: gray
 }
 
 .sub_info_larger {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
-  margin-left: .4em;
+  margin-left: 0.4em;
+  color: gray
 }
+
 .draft_rd {
   font-size: 1.25em;
 }
 
 .draft_round_pos {
-  font-size: .9em;
+  font-size: 0.9em;
   font-weight: 400
 }
 
@@ -114,4 +119,9 @@
 
 .spacer_small {
   margin-right: 8px
+}
+
+.name {
+  font-weight: 600;
+  font-size: .9em
 }
