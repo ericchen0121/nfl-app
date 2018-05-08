@@ -13,11 +13,12 @@ class DraftVideo extends React.Component {
     let nfl_img_id = null
     let team = null
     let position = null
-
+    let name = null
     if (player) {
       nfl_img_id = player.NFL_IMG_ID
       team = player.TEAM
       position = player.POS
+      name = player.PLAYER
     }
 
     let avatar = null
@@ -38,7 +39,7 @@ class DraftVideo extends React.Component {
     let team_position_display = (
       <span className={s.flex_container}>
         <div>{ logo }</div>
-        <div className={s.sub_info_larger}>{ position } {player.PLAYER}</div>
+        <div className={s.sub_info_larger}>{ position } { name }</div>
       </span>
     )
 
