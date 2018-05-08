@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Draft.css';
-
+import { NFL_IMG, NFL_PARAMS, NFL_LOGO } from './DraftFilterConstants'
 import {
   ListItem,
   ListItemSecondaryAction,
@@ -10,11 +10,6 @@ import {
 } from 'material-ui/List';
 import Icon from 'react-icons-kit';
 import { socialYoutubeOutline } from 'react-icons-kit/ionicons/socialYoutubeOutline';
-
-
-const NFL_IMG = "https://static.nfl.com/static/content/static/img/combine/2018/headshots/1400x1000"
-const NFL_PARAMS = "&f=png&w=308&c=71"
-const NFL_LOGO = 'https://static.nfl.com/static/site/img/logos/svg/teams' // https://static.nfl.com/static/site/img/logos/svg/teams/CLE.svg
 
 class DraftListItem extends React.Component {
   static propTypes = {

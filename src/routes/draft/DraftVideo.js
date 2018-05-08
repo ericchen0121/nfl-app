@@ -49,7 +49,7 @@ class DraftVideo extends React.Component {
       </div>)
     }
 
-    return <div className="video_player_container">{vid}</div>;
+    return <div className="video_player_container">{vid}</div>
   }
 }
 
