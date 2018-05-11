@@ -60,7 +60,8 @@
 }
 
 .item_title {
-  font-size: 12px
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .yt_img {
@@ -121,6 +122,10 @@
   color: gray
 }
 
+.sub_info_center {
+    margin-left: 1.9em;
+}
+
 .draft_rd {
   font-size: 1.25em;
 }
@@ -157,4 +162,8 @@
 
 .video_player_container {
   margin-bottom: 20px
+}
+
+.video_title_container  {
+  margin-left: 35%
 }

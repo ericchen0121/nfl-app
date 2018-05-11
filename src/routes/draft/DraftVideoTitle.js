@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import classnames from 'classnames'
 // import { withStyles } from 'material-ui/styles';
 import Paper from 'material-ui/Paper';
 import s from './Draft.css';
@@ -37,9 +38,9 @@ class DraftVideo extends React.Component {
     }
 
     let team_position_display = (
-      <span className={s.flex_container}>
+      <span className={classnames(s.flex_container, s.video_title_container)}>
         <div>{ logo } { avatar }</div>
-        <div className={s.sub_info_larger}>{ position } { name }</div>
+        <div className={classnames(s.sub_info_larger, s.sub_info_center)}>{ position } { name }</div>
       </span>
     )
 

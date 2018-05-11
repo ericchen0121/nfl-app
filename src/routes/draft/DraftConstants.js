@@ -72,12 +72,11 @@ export const VIDEO_SEARCH_TERMS = [
   'nfl combine',
   'draft pro day',
   'mock draft',
-  'pro player nfl comparisons',
-  'college highlights',
-  'nfl rookie year',
-  'draft breakdown',
+  'fantasy football',
+  'interview',
   'pff',
-  'espn'
+  'espn',
+  'madden'
 ]
 export const DEFAULT_TOP_LEVEL_FILTER = 'ROUND'
 export const NFL_IMG_COMPOSER = 'https://imagecomposer.nfl.com/?l='
