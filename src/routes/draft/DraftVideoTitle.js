@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Paper from 'material-ui/Paper';
 import s from './Draft.css';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import { NFL_IMG, NFL_PARAMS, NFL_LOGO } from './DraftFilterConstants'
+import { NFL_IMG, NFL_PARAMS, NFL_LOGO } from './DraftConstants'
 
 class DraftVideo extends React.Component {
 
@@ -23,7 +23,7 @@ class DraftVideo extends React.Component {
 
     let avatar = null
     if (nfl_img_id) (
-      avatar = <img className={s.avatar} src={`${NFL_IMG}/${nfl_img_id}.png`} />
+      avatar = <img className={s.avatar_large} src={`${NFL_IMG}/${nfl_img_id}.png`} />
     )
 
     let logo_src = `${NFL_LOGO}/${team}.svg`

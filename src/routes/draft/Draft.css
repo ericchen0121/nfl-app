@@ -26,6 +26,11 @@
   margin: 0 6px 0 8px;
 }
 
+.avatar_large {
+  height: 70px;
+  width: 97.67px;
+}
+
 .wrapper {
   display: flex;
   flex-flow: row wrap;
@@ -55,7 +60,11 @@
 }
 
 .item_title {
-  font-size: 9px
+  font-size: 12px
+}
+
+.yt_img {
+  width: 95%
 }
 
 .logo {
@@ -77,7 +86,7 @@
 }
 
 .video {
-  margin-left: 65px;
+  /* margin-left: 65px; */
 }
 
 .select_player {
@@ -143,4 +152,8 @@
 
 .instruction {
   vertical-align: super;
+}
+
+.video_player_container {
+  margin-bottom: 20px
 }

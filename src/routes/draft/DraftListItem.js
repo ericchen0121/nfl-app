@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Draft.css';
-import { NFL_IMG_COMPOSER, NFL_IMG, NFL_PARAMS, NFL_LOGO } from './DraftFilterConstants'
+import { NFL_IMG_COMPOSER, NFL_IMG, NFL_PARAMS, NFL_LOGO } from './DraftConstants'
 import {
   ListItem,
   ListItemSecondaryAction,
@@ -20,11 +20,11 @@ class DraftListItem extends React.Component {
   handleItemClick = () => {
     const { player } = this.props
     this.props.actions.selectDraftPlayer(player)
-    this.props.actions.fetchYoutubeList(this.createQuery(player.PLAYER, player.POS))
+    this.props.handleFetchYoutubeVideos(player.PLAYER, player.POS)
   }
 
   createQuery = (name, position) => {
-    return `${name}+${position}+highlights+draft`
+    return `${name}+${position}+draft+nfl+highlights`
   }
 
   render() {
@@ -52,9 +52,11 @@ class DraftListItem extends React.Component {
 
 
     let avatar = null
-    if (nfl_img_id) (
+    if (nfl_img_id) {
       avatar = <img className={s.avatar} src={`${NFL_IMG_COMPOSER}${NFL_IMG}/${nfl_img_id}.png${NFL_PARAMS}`} />
-    )
+    } else {
+      avatar = <img className={s.avatar} src='https://sportsfly.cbsistatic.com/bundles/sportsmediacss/images/player/headshot-default.png' />
+    }
 
     let logo_src = `${NFL_LOGO}/${team}.svg`
     let logo = <div className={s.logo} />

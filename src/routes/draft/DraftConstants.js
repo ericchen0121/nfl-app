@@ -64,8 +64,23 @@ export const FILTERS = {
   ]
 }
 
+
+export const VIDEO_SEARCH_TERMS = [
+  'rookie minicamp',
+  'nfl draft highlights',
+  'nfl draft scouting report',
+  'nfl combine',
+  'draft pro day',
+  'mock draft',
+  'pro player nfl comparisons',
+  'college highlights',
+  'nfl rookie year',
+  'draft breakdown',
+  'pff',
+  'espn'
+]
 export const DEFAULT_TOP_LEVEL_FILTER = 'ROUND'
 export const NFL_IMG_COMPOSER = 'https://imagecomposer.nfl.com/?l='
 export const NFL_IMG = "https://static.nfl.com/static/content/static/img/combine/2018/headshots/1400x1000"
-export const NFL_PARAMS = "&f=png&w=200&c=71"
+export const NFL_PARAMS = "&f=png&w=120&c=71"
 export const NFL_LOGO = 'https://static.nfl.com/static/site/img/logos/svg/teams' // https://static.nfl.com/static/site/img/logos/svg/teams/CLE.svg

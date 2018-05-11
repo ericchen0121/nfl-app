@@ -10,11 +10,12 @@ class DraftPlaylist extends Component {
     const { youtube_list } = this.props;
     let list = youtube_list.data
     let imgs = list.map((item) => {
-      let url = item.snippet.thumbnails.default.url
+      console.log(item)
+      let url = item.snippet.thumbnails.medium.url
       let title = item.snippet.title
       return (
         <div className={s.item_playlist} onClick={() => this.props.actions.selectYoutubeVideo(item)}>
-          <img src={url} />
+          <img className={s.yt_img} src={url} />
           <div className={s.item_title}>{title}</div>
           <Divider />
         </div>

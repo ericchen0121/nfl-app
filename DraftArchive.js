@@ -9,18 +9,16 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-// import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import { withStyles } from 'material-ui/styles';
+import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Draft.css';
 
 import DraftListItem from './DraftListItem';
 import DraftVideo from './DraftVideo';
 import DraftVideoTitle from './DraftVideoTitle';
-import DraftVideoSearch from './DraftVideoSearch';
 import DraftPlaylist from './DraftPlaylist';
 import DraftFilters from './DraftFilters';
 import PLAYERS from './DraftPlayers';
-import { FILTERS, DEFAULT_TOP_LEVEL_FILTER, VIDEO_SEARCH_TERMS } from './DraftConstants'
+import { FILTERS, DEFAULT_TOP_LEVEL_FILTER } from './DraftConstants'
 import List from 'material-ui/List';
 import Grid from 'material-ui/Grid';
 import Paper from 'material-ui/Paper';
@@ -29,24 +27,14 @@ import * as Actions from './actions';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-const styles = theme => ({
-  root: {
-    flexGrow: 1
-  }
-})
+
 
 class Draft extends React.Component {
   state = {
-    selected_player: {
-      name: null,
-      position: null
-    },
     top_level_filter_selected: DEFAULT_TOP_LEVEL_FILTER,
-    lower_level_filter_selected: FILTERS[DEFAULT_TOP_LEVEL_FILTER][0],
-    video_search_term: VIDEO_SEARCH_TERMS[0]
+    lower_level_filter_selected: FILTERS[DEFAULT_TOP_LEVEL_FILTER][0]
   }
 
-  //FILTERS FUNCTIONS
   onTopLevelFilterChange = (filter) => () => {
     this.setState({
       top_level_filter_selected: filter,
@@ -90,28 +78,9 @@ class Draft extends React.Component {
     })
   }
 
-  //VIDEO SEARCH FUNCTIONS
-  onVideoSearchTermChange = (video_search_term) => {
-    this.setState({video_search_term}, () => {
-      console.log('youtube searching: ', this.state.video_search_term)
-      this.handleFetchYoutubeVideos(this.state.selected_player.name, this.state.selected_player.position)
-    })
-  }
-
-  // handling the click on the player list item
-  // it also fires off the request to fetch YT videos
-  handleFetchYoutubeVideos = (name, position) => {
-    this.setState({ selected_player: { name, position} })
-    this.props.actions.fetchYoutubeList(this.createQuery(name, position))
-  }
-
-  createQuery = (name, position) => {
-    return `${name}+${position}+${this.state.video_search_term}`
-  }
-
   render() {
     const { classes } = this.props;
-    const { top_level_filter_selected, lower_level_filter_selected, video_search_term, selected_player  } = this.state
+    const { top_level_filter_selected, lower_level_filter_selected  } = this.state
     let order_players = this.sortResults(this.filterResults(this.removeUndrafted(PLAYERS.players)))
 
     const list = order_players.map(p => (
@@ -123,46 +92,30 @@ class Draft extends React.Component {
         team={p.TEAM}
         draft_rk={p.DRAFT_RK}
         {...this.props}
-        handleFetchYoutubeVideos={this.handleFetchYoutubeVideos}
       />
     ))
 
-    let video_search = null
-    if (selected_player.name) {
-      video_search = (
-        <DraftVideoSearch
-          onVideoSearchTermChange={this.onVideoSearchTermChange}
-          {...this.props}
-        />
-      )
-    }
     return (
-      <div className={classes.root}>
-        <Grid container>
-          <Grid item xs={12} md={12}>
-            <DraftFilters
-              filters = {FILTERS}
-              onTopLevelFilterChange={this.onTopLevelFilterChange}
-              onLowerLevelFilterChange={this.onLowerLevelFilterChange}
-              top_level_filter_selected={top_level_filter_selected}
-              lower_level_filter_selected= {lower_level_filter_selected}
-            />
-          </Grid>
-          <Grid item xs={12} sm={5} md={3} lg={3}>
+      <div>
+        <DraftFilters
+          filters = {FILTERS}
+          onTopLevelFilterChange={this.onTopLevelFilterChange}
+          onLowerLevelFilterChange={this.onLowerLevelFilterChange}
+          top_level_filter_selected={top_level_filter_selected}
+          lower_level_filter_selected= {lower_level_filter_selected}
+        />
+        <div className={s.wrapper_container}>
+          <div className={s.item_list}>
             <List>{list}</List>
-          </Grid>
-          <Grid item xs={12} sm={7} md={7} lg={7}>
+          </div>
+          <div className={s.item_vids}>
             <DraftVideoTitle {...this.props} />
-            <DraftVideo
-              video_search_term={video_search_term}
-              {...this.props}
-            />
-          </Grid>
-          <Grid item xs={12} sm={12} md={2} lg={2}>
-            { video_search }
+            <DraftVideo {...this.props} />
+          </div>
+          <div className={s.item_playlist}>
             <DraftPlaylist {...this.props} />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </div>
     );
   }
@@ -178,6 +131,6 @@ function mapDispatchToProps(dispatch) {
   };
 }
 
-export default withStyles(styles)(
+export default withStyles(s)(
   connect(mapStateToProps, mapDispatchToProps)(Draft),
 );
