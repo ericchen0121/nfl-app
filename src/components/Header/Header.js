@@ -12,6 +12,8 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Header.css';
 import Link from '../Link';
 import Navigation from '../Navigation';
+import { Icon } from 'react-icons-kit'
+import {ic_keyboard_arrow_right} from 'react-icons-kit/md/ic_keyboard_arrow_right'
 
 class Header extends React.Component {
   render() {
@@ -20,15 +22,17 @@ class Header extends React.Component {
         <div className={s.container}>
           <Navigation />
           <Link className={s.brand} to="/">
-            <span className={s.brandTxt}>NFL</span>
+            <span className={s.brandTxt}>Legendary NFL</span>
           </Link>
-          <div className={s.banner}>
-            <p className={s.bannerDesc}>2018 Draft Analysis Vids</p>
-          </div>
+          <Icon icon={ic_keyboard_arrow_right} /> <span classname={s.page_name}>2018 Draft</span>
         </div>
       </div>
     );
   }
 }
+
+// <div className={s.banner}>
+//   <p className={s.bannerDesc}>2018 Draft Analysis Vids</p>
+// </div>
 
 export default withStyles(s)(Header);
