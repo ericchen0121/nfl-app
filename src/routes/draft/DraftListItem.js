@@ -90,7 +90,7 @@ class DraftListItem extends React.Component {
     let team_position_display = (
       <span className={s.flex_container}>
         <div>{ logo }</div>
-        <div className={s.sub_info_larger}>{ position }</div>
+        <div className={classnames(s.sub_info_larger)}>{ position }</div>
       </span>
     )
 

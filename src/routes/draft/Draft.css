@@ -112,7 +112,6 @@
 .sub_info {
   font-size: 12px;
   font-weight: lighter;
-  margin-left: 0.4em;
   color: gray
 }
 
@@ -205,4 +204,14 @@
 
 .video_player_title_container {
   margin-top: 20px
+}
+
+.postion_container {
+  border: .4px solid grey;
+  padding: 1px 3px 2px 2px
+}
+
+.position_container_list_item {
+  border: .4px solid grey;
+  padding: 2px
 }

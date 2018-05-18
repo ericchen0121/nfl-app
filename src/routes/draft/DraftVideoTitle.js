@@ -42,7 +42,7 @@ class DraftVideo extends React.Component {
     let team_position_display = (
       <span className={classnames(s.flex_container_row, s.video_title_container)}>
         <div className={s.avatar_container}>{ avatar }</div>
-        <div className={classnames(s.sub_info_smaller, s.sub_info_container)}>{ logo } { position } { name }</div>
+        <div className={classnames(s.sub_info_smaller, s.sub_info_container)}>{ logo } <span className={s.postion_container}>{ position }</span> { name }</div>
       </span>
     )
 
