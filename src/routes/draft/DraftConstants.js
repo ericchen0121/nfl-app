@@ -74,15 +74,18 @@ export const VIDEO_SEARCH_TERMS = [
   'bleacher report',
   'tmz sports',
   'nfl network',
+  'mel kiper',
   'mike mayock',
-  'dave dameshek',
-  'colin cowherd',
-  'schein',
-  'podcast',
   'draft grades',
   'nfl draft scouting report',
   '40 yard dash',
   'draft pro day',
+  'rich eisen',
+  'dan patrick',
+  'dave dameshek',
+  'colin cowherd',
+  'schein',
+  'podcast',
 ];
 export const DEFAULT_TOP_LEVEL_FILTER = 'ROUND';
 export const NFL_IMG_COMPOSER = 'https://imagecomposer.nfl.com/?l=';

@@ -49,7 +49,8 @@ class Draft extends React.Component {
   state = {
     selected_player: {
       name: PLAYERS.players.find(p => p.DRAFT_RK === 1).PLAYER,
-      position: PLAYERS.players.find(p => p.DRAFT_RK === 1).POS
+      position: PLAYERS.players.find(p => p.DRAFT_RK === 1).POS,
+      team: PLAYERS.players.find(p => p.DRAFT_RK === 1).TEAM,
     },
     top_level_filter_selected: DEFAULT_TOP_LEVEL_FILTER,
     lower_level_filter_selected: FILTERS[DEFAULT_TOP_LEVEL_FILTER][0],
@@ -104,26 +105,27 @@ class Draft extends React.Component {
       this.handleFetchYoutubeVideos(
         this.state.selected_player.name,
         this.state.selected_player.position,
+        this.state.selected_player.team
       );
     });
   };
 
   // handling the click on the player list item
   // it also fires off the request to fetch YT videos
-  handleFetchYoutubeVideos = (name, position) => {
-    this.setState({ selected_player: { name, position } });
-    this.props.actions.fetchYoutubeList(this.createQuery(name, position));
+  handleFetchYoutubeVideos = (name, position, team) => {
+    this.setState({ selected_player: { name, position, team} });
+    this.props.actions.fetchYoutubeList(this.createQuery(name, position, team));
   };
 
-  createQuery = (name, position) =>
-    `${name}+${position}+${this.state.video_search_term}`;
+  createQuery = (name, position, team) =>
+    `${name}+${position}+${team}+${this.state.video_search_term}`;
 
   componentDidMount() {
     console.log(PLAYERS.players);
     const first_player_drafted = PLAYERS.players.find(p => p.DRAFT_RK === 1);
     this.props.actions.selectDraftPlayer(first_player_drafted);
     this.props.actions.fetchYoutubeList(
-      this.createQuery(first_player_drafted.PLAYER, first_player_drafted.POS),
+      this.createQuery(first_player_drafted.PLAYER, first_player_drafted.POS, first_player_drafted.TEAM),
     );
   }
 

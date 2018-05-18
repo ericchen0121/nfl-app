@@ -7,8 +7,6 @@ import {
 
 const initialState = {
   data: [],
-  selected_video: null,
-  selected_player: null
 }
 
 const youtube_list = (state = initialState, action) => {

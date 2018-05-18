@@ -21,7 +21,7 @@ class DraftListItem extends React.Component {
   handleItemClick = () => {
     const { player } = this.props
     this.props.actions.selectDraftPlayer(player)
-    this.props.handleFetchYoutubeVideos(player.PLAYER, player.POS)
+    this.props.handleFetchYoutubeVideos(player.PLAYER, player.POS, player.TEAM)
   }
 
   createQuery = (name, position) => {
