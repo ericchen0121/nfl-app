@@ -51,6 +51,9 @@ class DraftVideo extends React.Component {
           <div>
             <LeftArrow /> <span className={s.instruction}>select a player</span>
           </div>
+          <div>
+            <img className={s.video_placeholder} src='/video/video_placeholder.jpg' />
+          </div>
         </div>
       );
     }

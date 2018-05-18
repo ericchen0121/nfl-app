@@ -55,13 +55,6 @@ class DraftVideo extends React.Component {
       </span>
     );
 
-    // if (player) {
-    //   return (
-    //     <div className={s.video_player_title}>
-    //       <div><span>{ team_position_display }</span></div>
-    //     </div>
-    //   )
-    // }
     let title = null;
     let channel = null;
     let channel_id = null;

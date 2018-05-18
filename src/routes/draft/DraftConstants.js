@@ -57,6 +57,7 @@ export const FILTERS = {
 
 export const VIDEO_SEARCH_TERMS = [
   'rookie minicamp',
+  'otas',
   'nfl draft highlights',
   'fantasy football',
   'interview',
@@ -70,6 +71,7 @@ export const VIDEO_SEARCH_TERMS = [
   'madden',
   'good morning football',
   'fox sports',
+  'cbs sports',
   'undisputed',
   'bleacher report',
   'tmz sports',
