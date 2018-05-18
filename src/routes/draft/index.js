@@ -11,7 +11,7 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import Draft from './Draft';
 
-const title = 'Draft';
+const title = 'Legendary NFL';
 
 function action() {
   return {

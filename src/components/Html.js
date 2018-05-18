@@ -36,13 +36,12 @@ class Html extends React.Component {
 
   render() {
     const { title, description, styles, scripts, app, children } = this.props;
-    let app_title_bar = "Legendary NFL"
     return (
       <html className="no-js" lang="en">
         <head>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          <title>{app_title_bar}</title>
+          <title>{title}</title>
           <meta name="description" content={description} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           {scripts.map(script => (

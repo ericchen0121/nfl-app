@@ -687,8 +687,8 @@ const PLAYERS = {
   		"POS RK": 6,
   		"HT": "6-0",
   		"WT": 189,
-      "DRAFT_RD": 0,
-      "DRAFT_RD_POS": 0,
+      "DRAFT_RD": 1,
+      "DRAFT_RD_POS": 26,
       "DRAFT_RK": 26,
       "TEAM": "ATL",
       "NFL_IMG_ID": 2560011
@@ -2802,8 +2802,8 @@ const PLAYERS = {
   		"POS RK": 7,
   		"HT": "6-4",
   		"WT": 250,
-      "DRAFT_RD": 0,
-      "DRAFT_RD_POS": 0,
+      "DRAFT_RD": 1,
+      "DRAFT_RD_POS": 25,
       "DRAFT_RK": 25,
       "TEAM": "BAL",
       "NFL_IMG_ID": 2560072

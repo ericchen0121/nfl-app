@@ -67,16 +67,22 @@ export const FILTERS = {
 
 export const VIDEO_SEARCH_TERMS = [
   'rookie minicamp',
+  'fantasy football',
+  'interview',
+  'pff',
+  'espn',
+  'sportscenter',
+  'madden',
+  'fox sports',
+  'undisputed',
+  'good morning football',
+  'bleacher report',
+  'tmz',
   'nfl draft highlights',
   'nfl draft scouting report',
   'nfl combine',
   'draft pro day',
   'mock draft',
-  'fantasy football',
-  'interview',
-  'pff',
-  'espn',
-  'madden'
 ]
 export const DEFAULT_TOP_LEVEL_FILTER = 'ROUND'
 export const NFL_IMG_COMPOSER = 'https://imagecomposer.nfl.com/?l='
