@@ -20,7 +20,11 @@ import DraftVideoSearch from './DraftVideoSearch';
 import DraftPlaylist from './DraftPlaylist';
 import DraftFilters from './DraftFilters';
 import PLAYERS from './DraftPlayers';
-import { FILTERS, DEFAULT_TOP_LEVEL_FILTER, VIDEO_SEARCH_TERMS } from './DraftConstants'
+import {
+  FILTERS,
+  DEFAULT_TOP_LEVEL_FILTER,
+  VIDEO_SEARCH_TERMS,
+} from './DraftConstants';
 import List from 'material-ui/List';
 import Grid from 'material-ui/Grid';
 import Paper from 'material-ui/Paper';
@@ -31,100 +35,111 @@ import { bindActionCreators } from 'redux';
 
 const styles = theme => ({
   root: {
-    flexGrow: 1
+    flexGrow: 1,
   },
-  video_player_title_container : {
-    marginTop: 20
+  video_player_title_container: {
+    marginTop: 20,
+  },
+  spacer: {
+    height: 10
   }
-})
+});
 
 class Draft extends React.Component {
   state = {
     selected_player: {
       name: null,
-      position: null
+      position: null,
     },
     top_level_filter_selected: DEFAULT_TOP_LEVEL_FILTER,
     lower_level_filter_selected: FILTERS[DEFAULT_TOP_LEVEL_FILTER][0],
-    video_search_term: VIDEO_SEARCH_TERMS[0]
-  }
+    video_search_term: VIDEO_SEARCH_TERMS[0],
+  };
 
-  //FILTERS FUNCTIONS
-  onTopLevelFilterChange = (filter) => () => {
+  // FILTERS FUNCTIONS
+  onTopLevelFilterChange = filter => () => {
     this.setState({
       top_level_filter_selected: filter,
-      lower_level_filter_selected: FILTERS[filter][0] // select the first lower level filter
-    })
-  }
+      lower_level_filter_selected: FILTERS[filter][0], // select the first lower level filter
+    });
+  };
 
   onLowerLevelFilterChange = (e, filter) => {
     this.setState({
-      lower_level_filter_selected: filter // select the first lower level filter
-    })
-  }
+      lower_level_filter_selected: filter, // select the first lower level filter
+    });
+  };
 
   // players is ARRAY of player objects
   // returns filtered array of player objects based on top and lower level filters
-  filterResults = (players) => {
-    let {top_level_filter_selected, lower_level_filter_selected} = this.state
-    let key = null
-    if(top_level_filter_selected === 'ROUND') {
-      key = 'DRAFT_RD'
+  filterResults = players => {
+    const {
+      top_level_filter_selected,
+      lower_level_filter_selected,
+    } = this.state;
+    let key = null;
+    if (top_level_filter_selected === 'ROUND') {
+      key = 'DRAFT_RD';
     } else if (top_level_filter_selected === 'TEAM') {
-      key = 'TEAM'
+      key = 'TEAM';
     } else if (top_level_filter_selected === 'POSITION') {
-      key = 'POS'
+      key = 'POS';
     }
 
-    let filtered_players = players.filter(player => {
-      return player[key] === lower_level_filter_selected
-    })
+    const filtered_players = players.filter(
+      player => player[key] === lower_level_filter_selected,
+    );
 
-    return filtered_players
-  }
+    return filtered_players;
+  };
 
-  sortResults = (players) => {
-    return players.sort((a,b) => a.DRAFT_RK - b.DRAFT_RK)
-  }
+  sortResults = players => players.sort((a, b) => a.DRAFT_RK - b.DRAFT_RK);
 
-  removeUndrafted = (players) => {
-    return players.filter(player => {
-      return player['DRAFT_RD'] !== 0
-    })
-  }
+  removeUndrafted = players => players.filter(player => player.DRAFT_RD !== 0);
 
-  //VIDEO SEARCH FUNCTIONS
-  onVideoSearchTermChange = (video_search_term) => {
-    this.setState({video_search_term}, () => {
-      console.log('youtube searching: ', this.state.video_search_term)
-      this.handleFetchYoutubeVideos(this.state.selected_player.name, this.state.selected_player.position)
-    })
-  }
+  // VIDEO SEARCH FUNCTIONS
+  onVideoSearchTermChange = video_search_term => {
+    this.setState({ video_search_term }, () => {
+      console.log('youtube searching: ', this.state.video_search_term);
+      this.handleFetchYoutubeVideos(
+        this.state.selected_player.name,
+        this.state.selected_player.position,
+      );
+    });
+  };
 
   // handling the click on the player list item
   // it also fires off the request to fetch YT videos
   handleFetchYoutubeVideos = (name, position) => {
-    this.setState({ selected_player: { name, position} })
-    this.props.actions.fetchYoutubeList(this.createQuery(name, position))
-  }
+    this.setState({ selected_player: { name, position } });
+    this.props.actions.fetchYoutubeList(this.createQuery(name, position));
+  };
 
-  createQuery = (name, position) => {
-    return `${name}+${position}+${this.state.video_search_term}`
-  }
+  createQuery = (name, position) =>
+    `${name}+${position}+${this.state.video_search_term}`;
 
   componentDidMount() {
-    console.log(PLAYERS.players)
-    let first_player_drafted = PLAYERS.players.find((p) => p.DRAFT_RK === 1)
-    this.props.actions.selectDraftPlayer(first_player_drafted)
-    this.props.actions.fetchYoutubeList(this.createQuery(first_player_drafted.PLAYER, first_player_drafted.POS))
+    console.log(PLAYERS.players);
+    const first_player_drafted = PLAYERS.players.find(p => p.DRAFT_RK === 1);
+    this.props.actions.selectDraftPlayer(first_player_drafted);
+    this.props.actions.fetchYoutubeList(
+      this.createQuery(first_player_drafted.PLAYER, first_player_drafted.POS),
+    );
   }
 
   render() {
     const { classes } = this.props;
-    const { top_level_filter_selected, lower_level_filter_selected, video_search_term, selected_player  } = this.state
-    let order_players = this.sortResults(this.filterResults(this.removeUndrafted(PLAYERS.players)))
+    const {
+      top_level_filter_selected,
+      lower_level_filter_selected,
+      video_search_term,
+      selected_player,
+    } = this.state;
+    const order_players = this.sortResults(
+      this.filterResults(this.removeUndrafted(PLAYERS.players)),
+    );
 
-    let first_player = order_players[0]
+    const first_player = order_players[0];
 
     const list = order_players.map(p => (
       <DraftListItem
@@ -137,9 +152,9 @@ class Draft extends React.Component {
         {...this.props}
         handleFetchYoutubeVideos={this.handleFetchYoutubeVideos}
       />
-    ))
+    ));
 
-    let video_search = null
+    let video_search = null;
     if (selected_player.name) {
       video_search = (
         <DraftVideoSearch
@@ -153,17 +168,25 @@ class Draft extends React.Component {
         <Grid container>
           <Grid item xs={12} md={12}>
             <DraftFilters
-              filters = {FILTERS}
+              filters={FILTERS}
               onTopLevelFilterChange={this.onTopLevelFilterChange}
               onLowerLevelFilterChange={this.onLowerLevelFilterChange}
               top_level_filter_selected={top_level_filter_selected}
-              lower_level_filter_selected= {lower_level_filter_selected}
+              lower_level_filter_selected={lower_level_filter_selected}
             />
+            <div className={classes.spacer}></div>
           </Grid>
           <Grid item xs={12} sm={5} md={3} lg={3}>
             <List>{list}</List>
           </Grid>
-          <Grid item xs={12} sm={7} md={7} lg={7} className={classes.video_player_title_container}>
+          <Grid
+            item
+            xs={12}
+            sm={7}
+            md={7}
+            lg={7}
+            className={classes.video_player_title_container}
+          >
             <DraftVideo
               video_search_term={video_search_term}
               {...this.props}
@@ -171,7 +194,10 @@ class Draft extends React.Component {
             <DraftVideoTitle {...this.props} />
           </Grid>
           <Grid item xs={12} sm={12} md={2} lg={2}>
-            { video_search }
+            <DraftVideoSearch
+              onVideoSearchTermChange={this.onVideoSearchTermChange}
+              {...this.props}
+            />
             <DraftPlaylist {...this.props} />
           </Grid>
         </Grid>

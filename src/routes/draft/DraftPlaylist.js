@@ -5,30 +5,28 @@ import s from './Draft.css';
 import Divider from 'material-ui/Divider';
 
 class DraftPlaylist extends Component {
-
   render() {
     const { youtube_list } = this.props;
-    let list = youtube_list.data
-    let imgs = list.map((item) => {
-      let url = item.snippet.thumbnails.medium.url
-      let title = item.snippet.title
-      let channel = item.snippet.channelTitle
+    const list = youtube_list.data;
+    const imgs = list.map(item => {
+      const url = item.snippet.thumbnails.medium.url;
+      const title = item.snippet.title;
+      const channel = item.snippet.channelTitle;
 
       return (
-        <div className={s.item_playlist} onClick={() => this.props.actions.selectYoutubeVideo(item)}>
+        <div
+          className={s.item_playlist}
+          onClick={() => this.props.actions.selectYoutubeVideo(item)}
+        >
           <img className={s.yt_img} src={url} />
           <div className={s.item_title}>{title}</div>
-          <div className = {s.item_channel}>{channel}</div>
+          <div className={s.item_channel}>{channel}</div>
           <Divider />
         </div>
-      )
-    })
+      );
+    });
 
-    return (
-        <div className="wrapper">
-          {imgs}
-        </div>
-    )
+    return <div className="wrapper">{imgs}</div>;
   }
 }
 

@@ -1,14 +1,5 @@
 export const FILTERS = {
-  ROUND: [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    'udfa'
-  ],
+  ROUND: [1, 2, 3, 4, 5, 6, 7, 'udfa'],
   TEAM: [
     'ARI',
     'ATL',
@@ -41,7 +32,7 @@ export const FILTERS = {
     'SF',
     'TB',
     'TEN',
-    'WAS'
+    'WAS',
   ],
   POSITION: [
     'QB',
@@ -60,10 +51,9 @@ export const FILTERS = {
     'S',
     'LS',
     'K',
-    'P'
-  ]
-}
-
+    'P',
+  ],
+};
 
 export const VIDEO_SEARCH_TERMS = [
   'rookie minicamp',
@@ -89,9 +79,11 @@ export const VIDEO_SEARCH_TERMS = [
   '40 yard dash',
   'draft pro day',
   'mock draft',
-]
-export const DEFAULT_TOP_LEVEL_FILTER = 'ROUND'
-export const NFL_IMG_COMPOSER = 'https://imagecomposer.nfl.com/?l='
-export const NFL_IMG = "https://static.nfl.com/static/content/static/img/combine/2018/headshots/1400x1000"
-export const NFL_PARAMS = "&f=png&w=120&c=71"
-export const NFL_LOGO = 'https://static.nfl.com/static/site/img/logos/svg/teams' // https://static.nfl.com/static/site/img/logos/svg/teams/CLE.svg
+];
+export const DEFAULT_TOP_LEVEL_FILTER = 'ROUND';
+export const NFL_IMG_COMPOSER = 'https://imagecomposer.nfl.com/?l=';
+export const NFL_IMG =
+  'https://static.nfl.com/static/content/static/img/combine/2018/headshots/1400x1000';
+export const NFL_PARAMS = '&f=png&w=120&c=71';
+export const NFL_LOGO =
+  'https://static.nfl.com/static/site/img/logos/svg/teams'; // https://static.nfl.com/static/site/img/logos/svg/teams/CLE.svg
