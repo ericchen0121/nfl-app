@@ -48,8 +48,8 @@ const styles = theme => ({
 class Draft extends React.Component {
   state = {
     selected_player: {
-      name: null,
-      position: null,
+      name: PLAYERS.players.find(p => p.DRAFT_RK === 1).PLAYER,
+      position: PLAYERS.players.find(p => p.DRAFT_RK === 1).POS
     },
     top_level_filter_selected: DEFAULT_TOP_LEVEL_FILTER,
     lower_level_filter_selected: FILTERS[DEFAULT_TOP_LEVEL_FILTER][0],

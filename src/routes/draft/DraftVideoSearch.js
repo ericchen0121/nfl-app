@@ -31,7 +31,6 @@ const styles = theme => ({
 class DraftVideoSearch extends Component {
 
   state = {
-    player: '',
     search_term: VIDEO_SEARCH_TERMS[0],
   };
 
