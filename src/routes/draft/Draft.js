@@ -112,10 +112,19 @@ class Draft extends React.Component {
     return `${name}+${position}+${this.state.video_search_term}`
   }
 
+  componentDidMount() {
+    console.log(PLAYERS.players)
+    let first_player_drafted = PLAYERS.players.find((p) => p.DRAFT_RK === 1)
+    this.props.actions.selectDraftPlayer(first_player_drafted)
+    this.props.actions.fetchYoutubeList(this.createQuery(first_player_drafted.PLAYER, first_player_drafted.POS))
+  }
+
   render() {
     const { classes } = this.props;
     const { top_level_filter_selected, lower_level_filter_selected, video_search_term, selected_player  } = this.state
     let order_players = this.sortResults(this.filterResults(this.removeUndrafted(PLAYERS.players)))
+
+    let first_player = order_players[0]
 
     const list = order_players.map(p => (
       <DraftListItem

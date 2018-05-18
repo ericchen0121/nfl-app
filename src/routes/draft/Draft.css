@@ -184,12 +184,18 @@
 }
 
 .item_channel {
-  font-size: .6em;
-  color: 'light-gray'
+  font-size: 11px;
+  color: 'light-gray';
+  margin-top: 5px
+}
+
+.item_yt_icon {
+  margin-left: 6px;
+  margin-top: 2.5px
 }
 
 .sub_info_container {
-  margin-right: 3em;
+  margin-right: 1.5em;
   margin-top: 25px
 }
 
@@ -214,4 +220,9 @@
 .position_container_list_item {
   border: .4px solid grey;
   padding: 2px
+}
+
+.channel_link {
+  text-decoration: none;
+  color: gray
 }

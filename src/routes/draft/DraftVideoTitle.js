@@ -6,6 +6,8 @@ import Paper from 'material-ui/Paper';
 import s from './Draft.css';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import { NFL_IMG, NFL_PARAMS, NFL_LOGO } from './DraftConstants'
+import { Icon } from 'react-icons-kit'
+import {socialYoutubeOutline} from 'react-icons-kit/ionicons/socialYoutubeOutline'
 
 class DraftVideo extends React.Component {
 
@@ -54,11 +56,13 @@ class DraftVideo extends React.Component {
     //   )
     // }
     let title = null
-    let channel = null;
+    let channel = null
+    let channel_id = null
+
     if (selected_video) {
       title = selected_video.snippet.title
       channel = selected_video.snippet.channelTitle
-
+      channel_id = selected_video.snippet.channelId
       return (
         <div className={classnames(s.flex_container_row, s.video_player_title_container)}>
           <div>
@@ -66,7 +70,9 @@ class DraftVideo extends React.Component {
           </div>
           <div className={classnames(s.item_playlist, s.margin_top_title)}>
             <div className={s.item_title}>{title}</div>
-            <div className={s.item_channel}>{channel}</div>
+            <div className={classnames(s.flex_container_row)}>
+              <a className={s.channel_link} href={`https://www.youtube.com/channel/${channel_id}`} target='blank'><span className={classnames(s.item_channel)}>{ channel }</span><Icon style={{color: '#E62117'}} className={s.item_yt_icon} icon={socialYoutubeOutline} size={12}/></a>
+            </div>
           </div>
         </div>
       )

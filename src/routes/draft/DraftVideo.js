@@ -22,7 +22,7 @@ class DraftVideo extends React.Component {
 
   render() {
     const { youtube_list } = this.props;
-
+    console.log(youtube_list)
     let vid = null;
     if (youtube_list.data.length !== 0) {
       const id = youtube_list.selected_video.id.videoId;
