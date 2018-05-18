@@ -32,6 +32,9 @@ import { bindActionCreators } from 'redux';
 const styles = theme => ({
   root: {
     flexGrow: 1
+  },
+  video_player_title_container : {
+    marginTop: 20
   }
 })
 
@@ -151,12 +154,12 @@ class Draft extends React.Component {
           <Grid item xs={12} sm={5} md={3} lg={3}>
             <List>{list}</List>
           </Grid>
-          <Grid item xs={12} sm={7} md={7} lg={7}>
-            <DraftVideoTitle {...this.props} />
+          <Grid item xs={12} sm={7} md={7} lg={7} className={classes.video_player_title_container}>
             <DraftVideo
               video_search_term={video_search_term}
               {...this.props}
             />
+            <DraftVideoTitle {...this.props} />
           </Grid>
           <Grid item xs={12} sm={12} md={2} lg={2}>
             { video_search }

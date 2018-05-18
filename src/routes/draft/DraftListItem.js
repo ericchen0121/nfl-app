@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import classnames from 'classnames'
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Draft.css';
 import { NFL_IMG_COMPOSER, NFL_IMG, NFL_PARAMS, NFL_LOGO } from './DraftConstants'
@@ -53,9 +54,9 @@ class DraftListItem extends React.Component {
 
     let avatar = null
     if (nfl_img_id) {
-      avatar = <img className={s.avatar} src={`${NFL_IMG_COMPOSER}${NFL_IMG}/${nfl_img_id}.png${NFL_PARAMS}`} />
+      avatar = <img className={classnames(s.avatar)} src={`${NFL_IMG_COMPOSER}${NFL_IMG}/${nfl_img_id}.png${NFL_PARAMS}`} />
     } else {
-      avatar = <img className={s.avatar} src='https://sportsfly.cbsistatic.com/bundles/sportsmediacss/images/player/headshot-default.png' />
+      avatar = <img className={classnames(s.avatar)} src='https://sportsfly.cbsistatic.com/bundles/sportsmediacss/images/player/headshot-default.png' />
     }
 
     let logo_src = `${NFL_LOGO}/${team}.svg`
@@ -104,6 +105,7 @@ class DraftListItem extends React.Component {
       <ListItem
         key={name}
         onClick={ handleItemClick }
+        className= {s.player_list_item}
       >
          { draft_round_display } { draft_position_display }{ team_position_display } {avatar} { name_college_display }
       </ListItem>

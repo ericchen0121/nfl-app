@@ -10,7 +10,6 @@ class DraftPlaylist extends Component {
     const { youtube_list } = this.props;
     let list = youtube_list.data
     let imgs = list.map((item) => {
-      console.log(item)
       let url = item.snippet.thumbnails.medium.url
       let title = item.snippet.title
       return (
